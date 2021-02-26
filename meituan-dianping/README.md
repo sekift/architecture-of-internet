@@ -29,7 +29,7 @@
 | 3    | InfluxDB | InfluxData                        | 时序数据库       | /      | 2016  | www.influxdata.com/                         | +    |
 | 4    | Redis    | Redis                             | 键值对内存数据库 | ANSI C | 2013  | https://redis.io/                           | ++   |
 | 5    | DBProxy  | Meituan DBProxy                   | 数据库中间件     | /      | 2015+ | https://github.com/Meituan-Dianping/DBProxy | -    |
-|      |          |                                   |                  |        |       |                                             |      |
+| 6    |          |                                   |                  |        |       |                                             |      |
 
 ## 4.:bear:大数据
 
@@ -41,7 +41,7 @@
 | 4    | Kafka    | Apache Kafka    | 分布式日志系统     | zookeeper       | 2015  | http://kafka.apache.org/    | +    |
 | 5    | Spark    | Apache Spark    | 大数据并行计算框架 | YARN、HDFS      | 2016  | http://spark.apache.org/    | ++   |
 | 6    | Zeppelin | Apache Zeppelin | 数据分析可视化     | Spark           | 2016  | http://zeppelin.apache.org/ | +    |
-| 7    |          |                 |                    |                 |       |                             |      |
+| 7    | Storm    | Apache Storm    | 实时计算框架       | /               | 2016  | http://storm.apache.org/    | +    |
 
 ## 5.:cow:算法与AI
 
