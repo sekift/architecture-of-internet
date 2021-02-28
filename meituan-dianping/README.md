@@ -15,6 +15,7 @@
 | 9    | Cyra      | Cyra           | 单页视图工具                     | JS         | 点评                       | 2017  | /                                                     | -    |
 | 10   | ThunderJS | ThunderJS      | CMD模块加载器                    | JS         | 前端                       | 2017  | /                                                     | -    |
 | 11   | BS        | Build Service  | 静态资源托管方案                 | Myers、CDN | 前端                       | 2017  | /                                                     | -    |
+| 12   | mpvue     | mpvue          | 小程序开发工具                   | vue、h5    | 酒旅                       | 2017  | [Git](https://github.com/Meituan-Dianping/mpvue)      | -    |
 
 ## :hamster:2.后端
 
@@ -42,7 +43,7 @@
 | 2    | MySQL      | MySQL                             | 开源数据库         | /        | 基础服务 | 2010  | [官网](https://www.mysql.com/)                        | +++  |
 | 3    | InfluxDB   | InfluxData                        | 时序数据库         | /        | 压测工具 | 2016  | [官网](www.influxdata.com/)                           | +    |
 | 4    | Redis      | Redis                             | 键值对内存数据库   | ANSI C   | 基础服务 | 2013  | [官网](https://redis.io/)                             | ++   |
-| 5    | DBProxy    | Meituan DBProxy                   | 数据库中间件       | /        | 基础服务 | 2015+ | [Git](https://github.com/Meituan-Dianping/DBProxy)    | -    |
+| 5    | DBProxy    | Meituan DBProxy                   | 数据库中间件       | C、Altas | 基础服务 | 2015+ | [Git](https://github.com/Meituan-Dianping/DBProxy)    | -    |
 | 6    | SQLAdvisor | Meituan SQLAdvisor                | SQL优化工具        | C、MySQL | 运维     | 2017  | [Git](https://github.com/Meituan-Dianping/SQLAdvisor) | +    |
 | 7    | Tair       | Tair                              | 键值对数据存储系统 | C        | 基础服务 | 2016  | [Git](https://github.com/alibaba/tair)                | +    |
 | 8    | MyFlash    | Meituan MyFlash                   | MySQL 闪回工具     |          | 运维     | 2017  | [Git]( https://github.com/Meituan-Dianping/)          | +    |
@@ -69,7 +70,7 @@
 | ---- | ------- | ------------------------------- | ------------------------- | ----------- | ------------ | ---- | ---- | ---- |
 | 1    | POI     | POI推荐                         | 机器学习的POI品类推荐算法 | Naive Bayes | 商家数据中心 | 2014 | /    | -    |
 | 2    | AlexNet | AlexNet                         | 卷积神经网络              | CNN         | 图像识别     | 2017 | /    | +    |
-| 3    | GBDT    | Gradient Boosted Decision Trees | 梯度提升树                | /           | ETA配送      | 2017 | /    | +    |
+| 3    | GBDT    | Gradient Boosted Decision Trees | 梯度提升决策树            | /           | ETA配送      | 2017 | /    | +    |
 | 4    |         |                                 |                           |             |              |      |      |      |
 
 ## :monkey:6.运维
@@ -86,12 +87,12 @@
 
 ## :camel:7.安全
 
-| 序号 | 名称 | 全称 | 简介 | 技术栈 | 应用 | 时间 | 网址 | 发展 |
-| ---- | ---- | ---- | ---- | ------ | ---- | ---- | ---- | ---- |
-| 1    |      |      |      |        |      |      |      |      |
-| 2    |      |      |      |        |      |      |      |      |
-| 3    |      |      |      |        |      |      |      |      |
-| 4    |      |      |      |        |      |      |      |      |
+| 序号 | 名称    | 全称           | 简介               | 技术栈 | 应用     | 时间 | 网址                                                | 发展 |
+| ---- | ------- | -------------- | ------------------ | ------ | -------- | ---- | --------------------------------------------------- | ---- |
+| 1    | Nmap    | Network Mapper | 端口扫描器         | python | 基础服务 | 2017 | [官网](https://nmap.org/)                           | +    |
+| 2    | Masscan | Masscan        | 端口扫描器         | /      | 基础服务 | 2017 | [Git](https://github.com/robertdavidgraham/masscan) | ++   |
+| 3    | drozer  | drozer         | 移动端渗透测试工具 | /      | Android  | 2017 | [链接](https://labs.f-secure.com/tools/drozer/)     | -    |
+| 4    |         |                |                    |        |          |      |                                                     |      |
 
 ## :panda_face:8.测试
 
@@ -103,13 +104,21 @@
 | 4    | Appium   | Appium          | App自动化测试           | Cucumber | 酒旅     | 2016 | [官网](http://appium.io)                    | +    |
 | 5    | JaCoCo   | JaCoCo          | 代码覆盖率工具          | Java     | 到店     | 2017 | [Git](https://github.com/jacoco/jacoco)     | -    |
 | 6    | sysbench | sysbench        | 数据库测试工具          | MySQL    | 基础服务 | 2017 | [Git](https://github.com/topics/sysbench)   | +    |
+| 7    | JMeter   | Apache JMeter   | 压测工具                | Java     | 基础服务 | 2017 | [官网](https://jmeter.apache.org/)          | ++   |
 
 ## :baby_chick:9.移动端
 
-| 序号 | 名称   | 全称          | 简介               | 技术栈       | 应用       | 时间 | 网址                                              | 发展 |
-| ---- | ------ | ------------- | ------------------ | ------------ | ---------- | ---- | ------------------------------------------------- | ---- |
-| 1    | Lint   | Android Lint  | 静态代码检查工具   | Java         | 酒旅       | 2016 | [官网](http://tools.android.com/tips)             | -    |
-| 2    | Hertz  | Meituan Hertz | 移动端性能监控     | /            | 酒旅、外卖 | 2016 | /                                                 | -    |
-| 3    | Walle  | Meituan Walle | 快速渠道包生产工具 | Java、Groovy | 酒旅       | 2017 | [Git](https://github.com/Meituan-Dianping/walle)  | +    |
-| 4    | Shield | Shield        | 模块化 UI 界面     | JS           | 到店       | 2017 | [Git](https://github.com/Meituan-Dianping/Shield) | +    |
-| 5    |        |               |                    |              |            |      |                                                   |      |
+| 序号 | 名称      | 全称                          | 简介               | 技术栈          | 应用       | 时间 | 网址                                                 | 发展 |
+| ---- | --------- | ----------------------------- | ------------------ | --------------- | ---------- | ---- | ---------------------------------------------------- | ---- |
+| 1    | Lint      | Android Lint                  | 静态代码检查工具   | Java            | 酒旅       | 2016 | [官网](http://tools.android.com/tips)                | -    |
+| 2    | Hertz     | Meituan Hertz                 | 移动端性能监控     | /               | 酒旅、外卖 | 2016 | /                                                    | -    |
+| 3    | Walle     | Meituan Walle                 | 快速渠道包生产工具 | Java、Groovy    | 酒旅       | 2017 | [Git](https://github.com/Meituan-Dianping/walle)     | +    |
+| 4    | Shield    | Shield                        | 模块化 UI 界面     | JS              | 到店       | 2017 | [Git](https://github.com/Meituan-Dianping/Shield)    | +    |
+| 5    | Flutter   | Flutter                       | 跨平台UI框架       | JS              | 外卖       | 2018 | [Git](https://github.com/flutter/flutter)            | ++   |
+| 6    | Picasso   | Meituan Picasso               | 跨平台动态化框架   | DSL、TypeScript | 外卖、酒旅 | 2018 | /                                                    | -    |
+| 7    | EasyReact | Meituan EasyReact             | 客户端开发框架     | Objective-C     |            | 2018 | [Git](https://github.com/meituan-dianping/EasyReact) | -    |
+| 8    | Logan     | Meituan Logan                 | 移动端基础日志组件 | C、JS           | 基础服务   | 2018 | [Git](https://github.com/Meituan-Dianping/Logan)     | +    |
+| 9    | MCI       | Mobile continuous integration | 流程研发系统       | /               | 基础服务   | 2018 | /                                                    | -    |
+| 10   | Robust    | Robust                        | 热修复框架         | /               | 外卖       | 2018 | [Git](https://github.com/Meituan-Dianping/Robust)    | -    |
+| 11   | Holmes    | Meituan Holmes                | 动态日志系统       | Android         | /          | 2018 | /                                                    | -    |
+
