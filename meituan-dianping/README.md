@@ -75,14 +75,17 @@
 
 ## :cow:5.算法与AI
 
-| 序号 | 名称    | 全称                            | 简介                      | 技术栈      | 应用         | 时间 | 网址                                      | 发展 |
-| ---- | ------- | ------------------------------- | ------------------------- | ----------- | ------------ | ---- | ----------------------------------------- | ---- |
-| 1    | POI     | POI推荐                         | 机器学习的POI品类推荐算法 | Naive Bayes | 商家数据中心 | 2014 | /                                         | -    |
-| 2    | AlexNet | AlexNet                         | 卷积神经网络              | CNN         | 图像识别     | 2017 | /                                         | +    |
-| 3    | GBDT    | Gradient Boosted Decision Trees | 梯度提升决策树            | /           | ETA配送      | 2017 | /                                         | +    |
-| 4    | Core ML | Core ML                         | 集成机器学习模型          | Python      | AR           | 2018 | /                                         | +    |
-| 5    | ps-lite | ps-lite                         | 模型的训练框架            | C++         | 猜你喜欢     | 2018 | [Git](https://github.com/dmlc/ps-lite)    | +    |
-| 6    | Kaldi   | Kaldi                           | 语音识别系统              | C++         | /            | 2018 | [Git](https://github.com/kaldi-asr/kaldi) | ++   |
+| 序号 | 名称               | 全称                            | 简介                      | 技术栈      | 应用         | 时间 | 网址                                      | 发展 |
+| ---- | ------------------ | ------------------------------- | ------------------------- | ----------- | ------------ | ---- | ----------------------------------------- | ---- |
+| 1    | POI                | POI推荐                         | 机器学习的POI品类推荐算法 | Naive Bayes | 商家数据中心 | 2014 | /                                         | -    |
+| 2    | AlexNet            | AlexNet                         | 卷积神经网络              | CNN         | 图像识别     | 2017 | /                                         | +    |
+| 3    | GBDT               | Gradient Boosted Decision Trees | 梯度提升决策树            | /           | ETA配送      | 2017 | /                                         | +    |
+| 4    | Core ML            | Core ML                         | 集成机器学习模型          | Python      | AR           | 2018 | /                                         | +    |
+| 5    | ps-lite            | ps-lite                         | 模型的训练框架            | C++         | 猜你喜欢     | 2018 | [Git](https://github.com/dmlc/ps-lite)    | +    |
+| 6    | Kaldi              | Kaldi                           | 语音识别系统              | C++         | /            | 2018 | [Git](https://github.com/kaldi-asr/kaldi) | ++   |
+| 7    | Wide & Deep        | Wide & Deep                     | 分类和回归模型            | TensorFlow  | 广告         | 2018 | /                                         | ++   |
+| 8    | TensorFlow Serving | TensorFlow Serving              | 机器学习模型              | TensorFlow  | 广告         | 2018 | /                                         | ++   |
+| 9    | Faster R-CNN       | Faster R-CNN                    | 深度学习目标检测框架      | CNN         | OCR应用      | 2018 | /                                         | +    |
 
 ## :monkey:6.运维
 
