@@ -22,7 +22,7 @@
 | 序号 | 名称     | 全称               | 简介                   | 技术栈                            | 应用      | 时间 | 网址                                            | 发展 |
 | ---- | -------- | ------------------ | ---------------------- | --------------------------------- | --------- | ---- | ----------------------------------------------- | ---- |
 | 1    | Flume    | Apache Flume       | 日志收集系统           | ZooKeeper、gossip、Hadoop、Thrift | 基础服务  | 2013 | [官网](http://flume.apache.org/)                | ++   |
-| 2    | Solr     | Apache Solr        | 企业级搜索服务器       | Java、Lucene                      | CRM、酒旅 | 2014 | [官网](https://lucene.apache.org/solr/)         | ++   |
+| 2    | Solr     | Apache Solr        | 企业级搜索服务器       | Java、Lucene                      | CRM、美旅 | 2014 | [官网](https://lucene.apache.org/solr/)         | ++   |
 | 3    | Gradle   | Gradle Build Tool  | 自动化构建工具         | Java                              | 基础服务  | 2014 | [官网](https://gradle.org/)                     | +++  |
 | 4    | RabbitMQ | RabbitMQ           | 消息队列               | Erlang                            | 基础服务  | 2016 | [官网](www.rabbitmq.com/)                       | ++   |
 | 5    | celery   | celery             | 消息传递作业队列       | Python                            | 基础服务  | 2016 | [官网](https://docs.celeryproject.org)          | -    |
@@ -40,23 +40,29 @@
 | 17   | UAS      | User Action System | 用户行为系统           | /                                 | 基础服务  | 2018 | /                                               | +    |
 | 18   | Camus    | Camus              | kafka2hive数据工具     | Kafka、Hive                       | 基础服务  | 2018 | [Git](https://github.com/LinkedInAttic/camus)   | --   |
 | 19   | Canal    | Canal              | 增量订阅和消费组件     | MySQL                             | 物流      | 2018 | [Git](https://github.com/alibaba/canal)         | +    |
-| 20   | Databus  | Databus            | 数据库变更实时传输系统 | /                                 | 物流      | 2018 | [Git](https://github.com/linkedin/databus)      | -    |
+| 20   | Databus  | Meituan Databus    | 数据库变更实时传输系统 | /                                 | 物流      | 2018 | [Git](https://github.com/linkedin/databus)      | -    |
+| 21   | DataMan  | Meituan DataMan    | 数据质量监管平台       | /                                 | 美旅      | 2018 | /                                               | -    |
+| 22   | Quake    | Meituan Quake      | 全链路压测平台         | Mtrace、MySQL                     | /         | 2018 | /                                               | -    |
+| 23   | Gravity  | Meituan Gravity    | 流程管理组件           | activiti                          | 绩效系统  | 2018 | /                                               | -    |
+| 24   | Aviator  | Aviator            | 规则表达式引擎         | Java                              | 美旅      | 2018 | [Git](https://github.com/killme2008/aviator)    | +    |
 
 ## :frog:3.数据库
 
-| 序号 | 名称       | 全称                              | 简介               | 技术栈   | 应用     | 时间  | 网址                                                  | 发展 |
-| ---- | ---------- | --------------------------------- | ------------------ | -------- | -------- | ----- | ----------------------------------------------------- | ---- |
-| 1    | OpenTSDB   | The Scalable Time Series Database | 时间序列数据库     | HBase    | 监控平台 | 2014  | [官网](http://opentsdb.net/)                          | +    |
-| 2    | MySQL      | MySQL                             | 开源数据库         | /        | 基础服务 | 2010  | [官网](https://www.mysql.com/)                        | +++  |
-| 3    | InfluxDB   | InfluxData                        | 时序数据库         | /        | 压测工具 | 2016  | [官网](www.influxdata.com/)                           | +    |
-| 4    | Redis      | Redis                             | 键值对内存数据库   | ANSI C   | 基础服务 | 2013  | [官网](https://redis.io/)                             | ++   |
-| 5    | DBProxy    | Meituan DBProxy                   | 数据库中间件       | C、Altas | 基础服务 | 2015+ | [Git](https://github.com/Meituan-Dianping/DBProxy)    | -    |
-| 6    | SQLAdvisor | Meituan SQLAdvisor                | SQL优化工具        | C、MySQL | 运维     | 2017  | [Git](https://github.com/Meituan-Dianping/SQLAdvisor) | +    |
-| 7    | Tair       | Tair                              | 键值对数据存储系统 | C        | 基础服务 | 2016  | [Git](https://github.com/alibaba/tair)                | +    |
-| 8    | MyFlash    | Meituan MyFlash                   | MySQL 闪回工具     |          | 运维     | 2017  | [Git]( https://github.com/Meituan-Dianping/)          | +    |
-| 9    | squirrel   | Meituan squirrel                  | 键值对内存数据库   | Redis    | 基础服务 | 2017  | /                                                     | -    |
-| 10   | Zebra      | Zebra                             | 数据库访问层中间件 | /        | 物流     | 2016  | [Git](https://github.com/Meituan-Dianping/Zebra)      | -    |
-| 11   | Alluxio    | Alluxio                           | 内存式存储系统     | Java     | 数据平台 | 2018  | [Git](https://github.com/Alluxio/alluxio)             | +    |
+| 序号 | 名称       | 全称                              | 简介                    | 技术栈   | 应用     | 时间  | 网址                                                  | 发展 |
+| ---- | ---------- | --------------------------------- | ----------------------- | -------- | -------- | ----- | ----------------------------------------------------- | ---- |
+| 1    | OpenTSDB   | The Scalable Time Series Database | 时间序列数据库          | HBase    | 监控平台 | 2014  | [官网](http://opentsdb.net/)                          | +    |
+| 2    | MySQL      | MySQL                             | 开源数据库              | /        | 基础服务 | 2010  | [官网](https://www.mysql.com/)                        | +++  |
+| 3    | InfluxDB   | InfluxData                        | 时序数据库              | /        | 压测工具 | 2016  | [官网](www.influxdata.com/)                           | +    |
+| 4    | Redis      | Redis                             | 键值对内存数据库        | ANSI C   | 基础服务 | 2013  | [官网](https://redis.io/)                             | ++   |
+| 5    | DBProxy    | Meituan DBProxy                   | 数据库中间件            | C、Altas | 基础服务 | 2015+ | [Git](https://github.com/Meituan-Dianping/DBProxy)    | -    |
+| 6    | SQLAdvisor | Meituan SQLAdvisor                | SQL优化工具             | C、MySQL | 运维     | 2017  | [Git](https://github.com/Meituan-Dianping/SQLAdvisor) | +    |
+| 7    | Tair       | Tair                              | 键值对数据存储系统      | C        | 基础服务 | 2016  | [Git](https://github.com/alibaba/tair)                | +    |
+| 8    | MyFlash    | Meituan MyFlash                   | MySQL 闪回工具          |          | 运维     | 2017  | [Git]( https://github.com/Meituan-Dianping/)          | +    |
+| 9    | squirrel   | Meituan squirrel                  | 键值对内存数据库        | Redis    | 基础服务 | 2017  | /                                                     | -    |
+| 10   | Zebra      | Zebra                             | 数据库访问层中间件      | /        | 物流     | 2016  | [Git](https://github.com/Meituan-Dianping/Zebra)      | -    |
+| 11   | Alluxio    | Alluxio                           | 内存式存储系统          | Java     | 数据平台 | 2018  | [Git](https://github.com/Alluxio/alluxio)             | +    |
+| 12   | Druid      | Apache Druid                      | 高性能实时分析数据库    | Java     | /        | 2018  | [Git](https://github.com/apache/druid/)               | +    |
+| 13   | TiDB       | PingCAP TiDB                      | 在线事务/分析处理数据库 | Go       | 基础服务 | 2018  | [Git](https://github.com/pingcap/tidb)                | ++   |
 
 ## :bear:4.大数据
 
@@ -141,5 +147,5 @@
 | 15   | Graver        | Meituan Graver                | UI 渲染框架        | iOS             | 外卖       | 2018 | [Git](https://github.com/Meituan-Dianping/Graver)    | -    |
 | 16   | Hades         | Meituan Hades                 | 静态分析框架       | C、CouchDB      | 基础服务   | 2018 | /                                                    | -    |
 | 17   | beeshell      | Meituan beeshell              | 基础组件库         | /               | 蜜蜂       | 2018 | [Git](https://github.com/meituan/beeshell)           | -    |
-|      |               |                               |                    |                 |            |      |                                                      |      |
+| 18   | OpenSTF       | OpenSTF                       | 云真机平台         | /               | 基础服务   | 2018 | /                                                    | +    |
 
