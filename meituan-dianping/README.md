@@ -16,6 +16,7 @@
 | 10   | ThunderJS | ThunderJS      | CMD模块加载器                    | JS         | 前端                       | 2017  | /                                                     | -    |
 | 11   | BS        | Build Service  | 静态资源托管方案                 | Myers、CDN | 前端                       | 2017  | /                                                     | -    |
 | 12   | mpvue     | mpvue          | 小程序开发工具                   | vue、h5    | 酒旅                       | 2017  | [Git](https://github.com/Meituan-Dianping/mpvue)      | -    |
+| 13   | Bifrost   | Bifrost        | 微前端框架                       | vue        | 闪购                       | 2019  | /                                                     | -    |
 
 ## :hamster:2.后端
 
@@ -45,6 +46,7 @@
 | 22   | Quake    | Meituan Quake      | 全链路压测平台         | Mtrace、MySQL                     | /         | 2018 | /                                               | -    |
 | 23   | Gravity  | Meituan Gravity    | 流程管理组件           | activiti                          | 绩效系统  | 2018 | /                                               | -    |
 | 24   | Aviator  | Aviator            | 规则表达式引擎         | Java                              | 美旅      | 2018 | [Git](https://github.com/killme2008/aviator)    | +    |
+| 25   | BTrace   | BTrace             | 动态追踪服务工具       | Java                              | 打车      | 2019 | [Git](https://github.com/btraceio/btrace)       | +    |
 
 ## :frog:3.数据库
 
@@ -125,27 +127,32 @@
 | 5    | JaCoCo   | JaCoCo          | 代码覆盖率工具          | Java     | 到店     | 2017 | [Git](https://github.com/jacoco/jacoco)     | -    |
 | 6    | sysbench | sysbench        | 数据库测试工具          | MySQL    | 基础服务 | 2017 | [Git](https://github.com/topics/sysbench)   | +    |
 | 7    | JMeter   | Apache JMeter   | 压测工具                | Java     | 基础服务 | 2017 | [官网](https://jmeter.apache.org/)          | ++   |
+| 8    |          |                 |                         |          |          |      |                                             |      |
 
 ## :baby_chick:9.移动端
 
-| 序号 | 名称          | 全称                          | 简介               | 技术栈          | 应用       | 时间 | 网址                                                 | 发展 |
-| ---- | ------------- | ----------------------------- | ------------------ | --------------- | ---------- | ---- | ---------------------------------------------------- | ---- |
-| 1    | Lint          | Android Lint                  | 静态代码检查工具   | Java            | 酒旅       | 2016 | [官网](http://tools.android.com/tips)                | -    |
-| 2    | Hertz         | Meituan Hertz                 | 移动端性能监控     | /               | 酒旅、外卖 | 2016 | /                                                    | -    |
-| 3    | Walle         | Meituan Walle                 | 快速渠道包生产工具 | Java、Groovy    | 酒旅       | 2017 | [Git](https://github.com/Meituan-Dianping/walle)     | +    |
-| 4    | Shield        | Shield                        | 模块化 UI 界面     | JS              | 到店       | 2017 | [Git](https://github.com/Meituan-Dianping/Shield)    | +    |
-| 5    | Flutter       | Flutter                       | 跨平台UI框架       | JS              | 外卖       | 2018 | [Git](https://github.com/flutter/flutter)            | ++   |
-| 6    | Picasso       | Meituan Picasso               | 跨平台动态化框架   | DSL、TypeScript | 外卖、酒旅 | 2018 | /                                                    | -    |
-| 7    | EasyReact     | Meituan EasyReact             | 客户端开发框架     | Objective-C     |            | 2018 | [Git](https://github.com/meituan-dianping/EasyReact) | -    |
-| 8    | Logan         | Meituan Logan                 | 移动端基础日志组件 | C、JS           | 基础服务   | 2018 | [Git](https://github.com/Meituan-Dianping/Logan)     | +    |
-| 9    | MCI           | Mobile continuous integration | 流程研发系统       | /               | 基础服务   | 2018 | /                                                    | -    |
-| 10   | Robust        | Robust                        | 热修复框架         | /               | 外卖       | 2018 | [Git](https://github.com/Meituan-Dianping/Robust)    | -    |
-| 11   | Holmes        | Meituan Holmes                | 动态日志系统       | Android         | /          | 2018 | /                                                    | -    |
-| 12   | LiveDataBus   | LiveDataBus                   | 消息总线框架       | Android         | 收银       | 2018 | [Git](https://github.com/JeremyLiao/LiveDataBus)     | +    |
-| 13   | modular-event | modular-event                 | 组件化消息总线框架 | Android         | 收银       | 2018 | /                                                    | -    |
-| 14   | WMRouter      | WMRouter                      | Android路由框架    | Android         | 外卖       | 2018 | [Git](https://github.com/meituan/WMRouter)           | +    |
-| 15   | Graver        | Meituan Graver                | UI 渲染框架        | iOS             | 外卖       | 2018 | [Git](https://github.com/Meituan-Dianping/Graver)    | -    |
-| 16   | Hades         | Meituan Hades                 | 静态分析框架       | C、CouchDB      | 基础服务   | 2018 | /                                                    | -    |
-| 17   | beeshell      | Meituan beeshell              | 基础组件库         | /               | 蜜蜂       | 2018 | [Git](https://github.com/meituan/beeshell)           | -    |
-| 18   | OpenSTF       | OpenSTF                       | 云真机平台         | /               | 基础服务   | 2018 | /                                                    | +    |
+| 序号 | 名称          | 全称                          | 简介                   | 技术栈          | 应用       | 时间 | 网址                                                 | 发展 |
+| ---- | ------------- | ----------------------------- | ---------------------- | --------------- | ---------- | ---- | ---------------------------------------------------- | ---- |
+| 1    | Lint          | Lint/TSLint/ESLint            | 静态代码检查工具       | Java            | 酒旅       | 2016 | [官网](http://tools.android.com/tips)                | -    |
+| 2    | Hertz         | Meituan Hertz                 | 移动端性能监控         | /               | 酒旅、外卖 | 2016 | /                                                    | -    |
+| 3    | Walle         | Meituan Walle                 | 快速渠道包生产工具     | Java、Groovy    | 酒旅       | 2017 | [Git](https://github.com/Meituan-Dianping/walle)     | +    |
+| 4    | Shield        | Shield                        | 模块化 UI 界面         | JS              | 到店       | 2017 | [Git](https://github.com/Meituan-Dianping/Shield)    | +    |
+| 5    | Flutter       | Flutter                       | 跨平台UI框架           | JS              | 外卖       | 2018 | [Git](https://github.com/flutter/flutter)            | ++   |
+| 6    | Picasso       | Meituan Picasso               | 跨平台动态化框架       | DSL、TypeScript | 外卖、酒旅 | 2018 | /                                                    | -    |
+| 7    | EasyReact     | Meituan EasyReact             | 客户端开发框架         | Objective-C     |            | 2018 | [Git](https://github.com/meituan-dianping/EasyReact) | -    |
+| 8    | Logan         | Meituan Logan                 | 移动端基础日志组件     | C、JS           | 基础服务   | 2018 | [Git](https://github.com/Meituan-Dianping/Logan)     | +    |
+| 9    | MCI           | Mobile continuous integration | 流程研发系统           | /               | 基础服务   | 2018 | /                                                    | -    |
+| 10   | Robust        | Robust                        | 热修复框架             | /               | 外卖       | 2018 | [Git](https://github.com/Meituan-Dianping/Robust)    | -    |
+| 11   | Holmes        | Meituan Holmes                | 动态日志系统           | Android         | /          | 2018 | /                                                    | -    |
+| 12   | LiveDataBus   | LiveDataBus                   | 消息总线框架           | Android         | 收银       | 2018 | [Git](https://github.com/JeremyLiao/LiveDataBus)     | +    |
+| 13   | modular-event | modular-event                 | 组件化消息总线框架     | Android         | 收银       | 2018 | /                                                    | -    |
+| 14   | WMRouter      | WMRouter                      | Android路由框架        | Android         | 外卖       | 2018 | [Git](https://github.com/meituan/WMRouter)           | +    |
+| 15   | Graver        | Meituan Graver                | UI 渲染框架            | iOS             | 外卖       | 2018 | [Git](https://github.com/Meituan-Dianping/Graver)    | -    |
+| 16   | Hades         | Meituan Hades                 | 静态分析框架           | C、CouchDB      | 基础服务   | 2018 | /                                                    | -    |
+| 17   | beeshell      | Meituan beeshell              | 基础组件库             | /               | 蜜蜂       | 2018 | [Git](https://github.com/meituan/beeshell)           | -    |
+| 18   | OpenSTF       | OpenSTF                       | 云真机平台             | /               | 基础服务   | 2018 | /                                                    | +    |
+| 19   | MTFlexbox     | Meituan Flexbox               | 跨平台动态化方案       | XML、CSS3       | 外卖       | 2019 | /                                                    | -    |
+| 20   | Litho         | Litho                         | 声明式UI框架           | RecyclerView    | 终端       | 2019 | /                                                    | -    |
+| 21   | MRN           | Meituan React Native          | 移动应用开发框架       | React Native    | 终端       | 2019 | /                                                    | +    |
+| 22   | Probe         | Probe                         | Android线上OOM定位组件 | /               | 配送       | 2019 | /                                                    | -    |
 
