@@ -9,4 +9,11 @@
 | 3    | [:department_store:阿里巴巴](https://github.com/sekift/architecture-of-internet/tree/main/alibaba) | 仓库地址：github.com/alibaba                                 |
 | 4    | [:house_with_garden:百度](https://github.com/sekift/architecture-of-internet/tree/main/baidu) | 仓库地址：github.com/baidu                                   |
 | 5    | [:post_office:网易](https://github.com/sekift/architecture-of-internet/tree/main/netease) | 仓库地址：github.com/netease                                 |
-| 6    | [:convenience_store:新浪微博](https://github.com/sekift/architecture-of-internet/tree/main/sinaweibo) |                                                              |
+| 6    | [:love_hotel:高德](https://github.com/sekift/architecture-of-internet/tree/maian/map) | 仓库地址：github.com/amapapi                                 |
+| 7    | [:convenience_store:新浪微博](https://github.com/sekift/architecture-of-internet/tree/main/sinaweibo) |                                                              |
+
+
+
+### emoji表情
+
+地址：https://www.webfx.com/tools/emoji-cheat-sheet/

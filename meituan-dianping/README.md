@@ -20,35 +20,40 @@
 
 ## :hamster:2.后端
 
-| 序号 | 名称     | 全称               | 简介                     | 技术栈                            | 应用      | 时间 | 网址                                                         | 发展 |
-| ---- | -------- | ------------------ | ------------------------ | --------------------------------- | --------- | ---- | ------------------------------------------------------------ | ---- |
-| 1    | Flume    | Apache Flume       | 日志收集系统             | ZooKeeper、gossip、Hadoop、Thrift | 基础服务  | 2013 | [官网](http://flume.apache.org/)                             | ++   |
-| 2    | Solr     | Apache Solr        | 企业级搜索服务器         | Java、Lucene                      | CRM、美旅 | 2014 | [官网](https://lucene.apache.org/solr/)                      | ++   |
-| 3    | Gradle   | Gradle Build Tool  | 自动化构建工具           | Java                              | 基础服务  | 2014 | [官网](https://gradle.org/)                                  | +++  |
-| 4    | RabbitMQ | RabbitMQ           | 消息队列                 | Erlang                            | 基础服务  | 2016 | [官网](www.rabbitmq.com/)                                    | ++   |
-| 5    | celery   | celery             | 消息传递作业队列         | Python                            | 基础服务  | 2016 | [官网](https://docs.celeryproject.org)                       | -    |
-| 6    | MTrace   | Meituan Trace      | 会话跟踪系统             | Java、Kafka、HBase、Hive          | 基础服务  | 2016 | /                                                            | -    |
-| 7    | MTDDL    | Meituan MTDDL      | 数据访问层中间件         | Java                              | 外卖      | 2016 | /                                                            | --   |
-| 8    | Leaf     | Meituan Leaf       | 分布式ID生成系统         | Java、MySQL                       | 基础服务  | 2016 | [Git](https://github.com/Meituan-Dianping/Leaf)              | -    |
-| 9    | MGW      | Meituan Gateway    | 四层负载均衡网关         | DPDK、RSS                         | 美团云    | 2017 | /                                                            | -    |
-| 10   | Cat      | Meituan Cat        | 实时应用监控平台         | Java                              | 基础服务  | 2017 | [Git](https://github.com/dianping/cat)                       | --   |
-| 11   | Maze     | Maze               | 规则引擎                 | /                                 | 外卖CRM   | 2017 | /                                                            | -    |
-| 12   | Kerberos | Kerberos           | 认证服务                 | /                                 | 基础服务  | 2017 | /                                                            | +    |
-| 13   | Rhino    | Meituan Rhino      | 熔断组件                 | /                                 | 基础服务  | 2017 | /                                                            | -    |
-| 14   | ProGuard | ProGuard           | Java代码优化器           | Java、Kotlin                      | /         | 2018 | [官网](https://www.guardsquare.com)                          | +    |
-| 15   | Netty    | Netty              | 网络通信层框架           | Java                              | 基础服务  | 2018 | [官网](https://netty.io/)                                    | ++   |
-| 16   | Oceanus  | Oceanus            | HTTP服务治理框架         | Nginx、Lua                        | 基础服务  | 2018 | /                                                            | +    |
-| 17   | UAS      | User Action System | 用户行为系统             | /                                 | 基础服务  | 2018 | /                                                            | +    |
-| 18   | Camus    | Camus              | kafka2hive数据工具       | Kafka、Hive                       | 基础服务  | 2018 | [Git](https://github.com/LinkedInAttic/camus)                | --   |
-| 19   | Canal    | Canal              | 增量订阅和消费组件       | MySQL                             | 物流      | 2018 | [Git](https://github.com/alibaba/canal)                      | +    |
-| 20   | Databus  | Meituan Databus    | 数据库变更实时传输系统   | /                                 | 物流      | 2018 | [Git](https://github.com/linkedin/databus)                   | -    |
-| 21   | DataMan  | Meituan DataMan    | 数据质量监管平台         | /                                 | 美旅      | 2018 | /                                                            | -    |
-| 22   | Quake    | Meituan Quake      | 全链路压测平台           | Mtrace、MySQL                     | /         | 2018 | /                                                            | -    |
-| 23   | Gravity  | Meituan Gravity    | 流程管理组件             | activiti                          | 绩效系统  | 2018 | /                                                            | -    |
-| 24   | Aviator  | Aviator            | 规则表达式引擎           | Java                              | 美旅      | 2018 | [Git](https://github.com/killme2008/aviator)                 | +    |
-| 25   | BTrace   | BTrace             | 动态追踪服务工具         | Java                              | 打车      | 2019 | [Git](https://github.com/btraceio/btrace)                    | +    |
-| 26   | OCTO     | Octopus            | 微服务通信框架及治理平台 | Java、Zookeeper                   | 基础服务  | 2019 | [Git](https://github.com/Meituan-Dianping/octo-rpc)、[Git](https://github.com/Meituan-Dianping/octo-ns)、[Git](https://github.com/Meituan-Dianping/octo-portal) | +    |
-| 27   | Wedge    | Wedge              | 参数配置平台             | /                                 | 搜索广告  | 2019 | /                                                            | -    |
+| 序号 | 名称         | 全称                 | 简介                     | 技术栈                            | 应用      | 时间 | 网址                                                         | 发展 |
+| ---- | ------------ | -------------------- | ------------------------ | --------------------------------- | --------- | ---- | ------------------------------------------------------------ | ---- |
+| 1    | Flume        | Apache Flume         | 日志收集系统             | ZooKeeper、gossip、Hadoop、Thrift | 基础服务  | 2013 | [官网](http://flume.apache.org/)                             | ++   |
+| 2    | Solr         | Apache Solr          | 企业级搜索服务器         | Java、Lucene                      | CRM、美旅 | 2014 | [官网](https://lucene.apache.org/solr/)                      | ++   |
+| 3    | Gradle       | Gradle Build Tool    | 自动化构建工具           | Java                              | 基础服务  | 2014 | [官网](https://gradle.org/)                                  | +++  |
+| 4    | RabbitMQ     | RabbitMQ             | 消息队列                 | Erlang                            | 基础服务  | 2016 | [官网](www.rabbitmq.com/)                                    | ++   |
+| 5    | celery       | celery               | 消息传递作业队列         | Python                            | 基础服务  | 2016 | [官网](https://docs.celeryproject.org)                       | -    |
+| 6    | MTrace       | Meituan Trace        | 会话跟踪系统             | Java、Kafka、HBase、Hive          | 基础服务  | 2016 | /                                                            | -    |
+| 7    | MTDDL        | Meituan MTDDL        | 数据访问层中间件         | Java                              | 外卖      | 2016 | /                                                            | --   |
+| 8    | Leaf         | Meituan Leaf         | 分布式ID生成系统         | Java、MySQL                       | 基础服务  | 2016 | [Git](https://github.com/Meituan-Dianping/Leaf)              | -    |
+| 9    | MGW          | Meituan Gateway      | 四层负载均衡网关         | DPDK、RSS                         | 美团云    | 2017 | /                                                            | -    |
+| 10   | Cat          | Meituan Cat          | 实时应用监控平台         | Java                              | 基础服务  | 2017 | [Git](https://github.com/dianping/cat)                       | --   |
+| 11   | Maze         | Maze                 | 规则引擎                 | /                                 | 外卖CRM   | 2017 | /                                                            | -    |
+| 12   | Kerberos     | Kerberos             | 认证服务                 | /                                 | 基础服务  | 2017 | /                                                            | +    |
+| 13   | Rhino        | Meituan Rhino        | 熔断组件                 | /                                 | 基础服务  | 2017 | /                                                            | -    |
+| 14   | ProGuard     | ProGuard             | Java代码优化器           | Java、Kotlin                      | /         | 2018 | [官网](https://www.guardsquare.com)                          | +    |
+| 15   | Netty        | Netty                | 网络通信层框架           | Java                              | 基础服务  | 2018 | [官网](https://netty.io/)                                    | ++   |
+| 16   | Oceanus      | Oceanus              | HTTP服务治理框架         | Nginx、Lua                        | 基础服务  | 2018 | /                                                            | +    |
+| 17   | UAS          | User Action System   | 用户行为系统             | /                                 | 基础服务  | 2018 | /                                                            | +    |
+| 18   | Camus        | Camus                | kafka2hive数据工具       | Kafka、Hive                       | 基础服务  | 2018 | [Git](https://github.com/LinkedInAttic/camus)                | --   |
+| 19   | Canal        | Canal                | 增量订阅和消费组件       | MySQL                             | 物流      | 2018 | [Git](https://github.com/alibaba/canal)                      | +    |
+| 20   | Databus      | Meituan Databus      | 数据库变更实时传输系统   | /                                 | 物流      | 2018 | [Git](https://github.com/linkedin/databus)                   | -    |
+| 21   | DataMan      | Meituan DataMan      | 数据质量监管平台         | /                                 | 美旅      | 2018 | /                                                            | -    |
+| 22   | Quake        | Meituan Quake        | 全链路压测平台           | Mtrace、MySQL                     | /         | 2018 | /                                                            | -    |
+| 23   | Gravity      | Meituan Gravity      | 流程管理组件             | activiti                          | 绩效系统  | 2018 | /                                                            | -    |
+| 24   | Aviator      | Aviator              | 规则表达式引擎           | Java                              | 美旅      | 2018 | [Git](https://github.com/killme2008/aviator)                 | +    |
+| 25   | BTrace       | BTrace               | 动态追踪服务工具         | Java                              | 打车      | 2019 | [Git](https://github.com/btraceio/btrace)                    | +    |
+| 26   | OCTO         | Octopus              | 微服务通信框架及治理平台 | Java、Zookeeper                   | 基础服务  | 2019 | [Git](https://github.com/Meituan-Dianping/octo-rpc)、[Git](https://github.com/Meituan-Dianping/octo-ns)、[Git](https://github.com/Meituan-Dianping/octo-portal) | +    |
+| 27   | Wedge        | Wedge                | 参数配置平台             | /                                 | 搜索广告  | 2019 | /                                                            | -    |
+| 28   | Gulf         | Meituan Gulf         | 日期管理系统             | /                                 | 基础服务  | /    | /                                                            | -    |
+| 29   | QA-Assistant | QA-Assistant         | 质量检查                 | /                                 | /         | /    | /                                                            | -    |
+| 30   | MNS          | Meituan Name Service | 命名服务                 | OCTO、Zookeeper、Mesh             | 基础服务  | 2020 | /                                                            | +    |
+| 31   | Crane        | Crane                | 分布式定时任务系统       | /                                 | /         | /    | /                                                            | +    |
+| 32   | Service Mesh | Serive Mesh          | 服务网格微服务框架       | /                                 | 中间件    | 2020 | /                                                            | ++   |
 
 ## :frog:3.数据库
 
@@ -137,28 +142,29 @@
 
 ## :baby_chick:9.移动端
 
-| 序号 | 名称          | 全称                          | 简介                   | 技术栈          | 应用       | 时间 | 网址                                                 | 发展 |
-| ---- | ------------- | ----------------------------- | ---------------------- | --------------- | ---------- | ---- | ---------------------------------------------------- | ---- |
-| 1    | Lint          | Lint/TSLint/ESLint            | 静态代码检查工具       | Java            | 酒旅       | 2016 | [官网](http://tools.android.com/tips)                | -    |
-| 2    | Hertz         | Meituan Hertz                 | 移动端性能监控         | /               | 酒旅、外卖 | 2016 | /                                                    | -    |
-| 3    | Walle         | Meituan Walle                 | 快速渠道包生产工具     | Java、Groovy    | 酒旅       | 2017 | [Git](https://github.com/Meituan-Dianping/walle)     | +    |
-| 4    | Shield        | Shield                        | 模块化 UI 界面         | JS              | 到店       | 2017 | [Git](https://github.com/Meituan-Dianping/Shield)    | +    |
-| 5    | Flutter       | Flutter                       | 跨平台UI框架           | JS              | 外卖       | 2018 | [Git](https://github.com/flutter/flutter)            | ++   |
-| 6    | Picasso       | Meituan Picasso               | 跨平台动态化框架       | DSL、TypeScript | 外卖、酒旅 | 2018 | /                                                    | -    |
-| 7    | EasyReact     | Meituan EasyReact             | 客户端开发框架         | Objective-C     |            | 2018 | [Git](https://github.com/meituan-dianping/EasyReact) | -    |
-| 8    | Logan         | Meituan Logan                 | 移动端基础日志组件     | C、JS           | 基础服务   | 2018 | [Git](https://github.com/Meituan-Dianping/Logan)     | +    |
-| 9    | MCI           | Mobile continuous integration | 流程研发系统           | /               | 基础服务   | 2018 | /                                                    | -    |
-| 10   | Robust        | Robust                        | 热修复框架             | /               | 外卖       | 2018 | [Git](https://github.com/Meituan-Dianping/Robust)    | -    |
-| 11   | Holmes        | Meituan Holmes                | 动态日志系统           | Android         | /          | 2018 | /                                                    | -    |
-| 12   | LiveDataBus   | LiveDataBus                   | 消息总线框架           | Android         | 收银       | 2018 | [Git](https://github.com/JeremyLiao/LiveDataBus)     | +    |
-| 13   | modular-event | modular-event                 | 组件化消息总线框架     | Android         | 收银       | 2018 | /                                                    | -    |
-| 14   | WMRouter      | WMRouter                      | Android路由框架        | Android         | 外卖       | 2018 | [Git](https://github.com/meituan/WMRouter)           | +    |
-| 15   | Graver        | Meituan Graver                | UI 渲染框架            | iOS             | 外卖       | 2018 | [Git](https://github.com/Meituan-Dianping/Graver)    | -    |
-| 16   | Hades         | Meituan Hades                 | 静态分析框架           | C、CouchDB      | 基础服务   | 2018 | /                                                    | -    |
-| 17   | beeshell      | Meituan beeshell              | 基础组件库             | /               | 蜜蜂       | 2018 | [Git](https://github.com/meituan/beeshell)           | -    |
-| 18   | OpenSTF       | OpenSTF                       | 云真机平台             | /               | 基础服务   | 2018 | /                                                    | +    |
-| 19   | MTFlexbox     | Meituan Flexbox               | 跨平台动态化方案       | XML、CSS3       | 外卖       | 2019 | /                                                    | -    |
-| 20   | Litho         | Litho                         | 声明式UI框架           | RecyclerView    | 终端       | 2019 | /                                                    | -    |
-| 21   | MRN           | Meituan React Native          | 移动应用开发框架       | React Native    | 终端       | 2019 | /                                                    | +    |
-| 22   | Probe         | Probe                         | Android线上OOM定位组件 | /               | 配送       | 2019 | /                                                    | -    |
+| 序号 | 名称          | 全称                          | 简介                   | 技术栈          | 应用       | 时间  | 网址                                                 | 发展 |
+| ---- | ------------- | ----------------------------- | ---------------------- | --------------- | ---------- | ----- | ---------------------------------------------------- | ---- |
+| 1    | Lint          | Lint/TSLint/ESLint            | 静态代码检查工具       | Java            | 酒旅       | 2016  | [官网](http://tools.android.com/tips)                | -    |
+| 2    | Hertz         | Meituan Hertz                 | 移动端性能监控         | /               | 酒旅、外卖 | 2016  | /                                                    | -    |
+| 3    | Walle         | Meituan Walle                 | 快速渠道包生产工具     | Java、Groovy    | 酒旅       | 2017  | [Git](https://github.com/Meituan-Dianping/walle)     | +    |
+| 4    | Shield        | Shield                        | 模块化 UI 界面         | JS              | 到店       | 2017  | [Git](https://github.com/Meituan-Dianping/Shield)    | +    |
+| 5    | Flutter       | Flutter                       | 跨平台UI框架           | JS              | 外卖       | 2018+ | [Git](https://github.com/flutter/flutter)            | +++  |
+| 6    | Picasso       | Meituan Picasso               | 跨平台动态化框架       | DSL、TypeScript | 外卖、酒旅 | 2018  | /                                                    | -    |
+| 7    | EasyReact     | Meituan EasyReact             | 客户端开发框架         | Objective-C     |            | 2018  | [Git](https://github.com/meituan-dianping/EasyReact) | -    |
+| 8    | Logan         | Meituan Logan                 | 移动端基础日志组件     | C、JS           | 基础服务   | 2018  | [Git](https://github.com/Meituan-Dianping/Logan)     | +    |
+| 9    | MCI           | Mobile continuous integration | 流程研发系统           | /               | 基础服务   | 2018  | /                                                    | -    |
+| 10   | Robust        | Robust                        | 热修复框架             | /               | 外卖       | 2018  | [Git](https://github.com/Meituan-Dianping/Robust)    | -    |
+| 11   | Holmes        | Meituan Holmes                | 动态日志系统           | Android         | /          | 2018  | /                                                    | -    |
+| 12   | LiveDataBus   | LiveDataBus                   | 消息总线框架           | Android         | 收银       | 2018  | [Git](https://github.com/JeremyLiao/LiveDataBus)     | +    |
+| 13   | modular-event | modular-event                 | 组件化消息总线框架     | Android         | 收银       | 2018  | /                                                    | -    |
+| 14   | WMRouter      | WMRouter                      | Android路由框架        | Android         | 外卖       | 2018  | [Git](https://github.com/meituan/WMRouter)           | +    |
+| 15   | Graver        | Meituan Graver                | UI 渲染框架            | iOS             | 外卖       | 2018  | [Git](https://github.com/Meituan-Dianping/Graver)    | -    |
+| 16   | Hades         | Meituan Hades                 | 静态分析框架           | C、CouchDB      | 基础服务   | 2018  | /                                                    | -    |
+| 17   | beeshell      | Meituan beeshell              | 基础组件库             | /               | 蜜蜂       | 2018  | [Git](https://github.com/meituan/beeshell)           | -    |
+| 18   | OpenSTF       | OpenSTF                       | 云真机平台             | /               | 基础服务   | 2018  | /                                                    | +    |
+| 19   | MTFlexbox     | Meituan Flexbox               | 跨平台动态化方案       | XML、CSS3       | 外卖       | 2019  | /                                                    | -    |
+| 20   | Litho         | Litho                         | 声明式UI框架           | RecyclerView    | 终端       | 2019  | /                                                    | -    |
+| 21   | MRN           | Meituan React Native          | 移动应用开发框架       | React Native    | 终端       | 2019  | /                                                    | +    |
+| 22   | Probe         | Probe                         | Android线上OOM定位组件 | /               | 配送       | 2019  | /                                                    | -    |
+| 23   | Sketch        | Meituan Sketch                | 积木UI统一解决方案     | /               | 前端       | 2020  | /                                                    | +    |
 
