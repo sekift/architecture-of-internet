@@ -57,21 +57,22 @@
 
 ## :frog:3.数据库
 
-| 序号 | 名称       | 全称                              | 简介                    | 技术栈   | 应用     | 时间  | 网址                                                  | 发展 |
-| ---- | ---------- | --------------------------------- | ----------------------- | -------- | -------- | ----- | ----------------------------------------------------- | ---- |
-| 1    | OpenTSDB   | The Scalable Time Series Database | 时间序列数据库          | HBase    | 监控平台 | 2014  | [官网](http://opentsdb.net/)                          | +    |
-| 2    | MySQL      | MySQL                             | 开源数据库              | /        | 基础服务 | 2010  | [官网](https://www.mysql.com/)                        | +++  |
-| 3    | InfluxDB   | InfluxData                        | 时序数据库              | /        | 压测工具 | 2016  | [官网](www.influxdata.com/)                           | +    |
-| 4    | Redis      | Redis                             | 键值对内存数据库        | ANSI C   | 基础服务 | 2013  | [官网](https://redis.io/)                             | ++   |
-| 5    | DBProxy    | Meituan DBProxy                   | 数据库中间件            | C、Altas | 基础服务 | 2015+ | [Git](https://github.com/Meituan-Dianping/DBProxy)    | -    |
-| 6    | SQLAdvisor | Meituan SQLAdvisor                | SQL优化工具             | C、MySQL | 运维     | 2017  | [Git](https://github.com/Meituan-Dianping/SQLAdvisor) | +    |
-| 7    | Tair       | Tair                              | 键值对数据存储系统      | C        | 基础服务 | 2016  | [Git](https://github.com/alibaba/tair)                | +    |
-| 8    | MyFlash    | Meituan MyFlash                   | MySQL 闪回工具          |          | 运维     | 2017  | [Git]( https://github.com/Meituan-Dianping/)          | +    |
-| 9    | squirrel   | Meituan squirrel                  | 键值对内存数据库        | Redis    | 基础服务 | 2017  | /                                                     | -    |
-| 10   | Zebra      | Zebra                             | 数据库访问层中间件      | /        | 物流     | 2016  | [Git](https://github.com/Meituan-Dianping/Zebra)      | -    |
-| 11   | Alluxio    | Alluxio                           | 内存式存储系统          | Java     | 数据平台 | 2018  | [Git](https://github.com/Alluxio/alluxio)             | +    |
-| 12   | Druid      | Apache Druid                      | 高性能实时分析数据库    | Java     | /        | 2018  | [Git](https://github.com/apache/druid/)               | +    |
-| 13   | TiDB       | PingCAP TiDB                      | 在线事务/分析处理数据库 | Go       | 基础服务 | 2018  | [Git](https://github.com/pingcap/tidb)                | ++   |
+| 序号 | 名称       | 全称                              | 简介                    | 技术栈       | 应用     | 时间  | 网址                                                  | 发展 |
+| ---- | ---------- | --------------------------------- | ----------------------- | ------------ | -------- | ----- | ----------------------------------------------------- | ---- |
+| 1    | OpenTSDB   | The Scalable Time Series Database | 时间序列数据库          | HBase        | 监控平台 | 2014  | [官网](http://opentsdb.net/)                          | +    |
+| 2    | MySQL      | MySQL                             | 开源数据库              | /            | 基础服务 | 2010  | [官网](https://www.mysql.com/)                        | +++  |
+| 3    | InfluxDB   | InfluxData                        | 时序数据库              | /            | 压测工具 | 2016  | [官网](www.influxdata.com/)                           | +    |
+| 4    | Redis      | Redis                             | 键值对内存数据库        | ANSI C       | 基础服务 | 2013  | [官网](https://redis.io/)                             | ++   |
+| 5    | DBProxy    | Meituan DBProxy                   | 数据库中间件            | C、Altas     | 基础服务 | 2015+ | [Git](https://github.com/Meituan-Dianping/DBProxy)    | -    |
+| 6    | SQLAdvisor | Meituan SQLAdvisor                | SQL优化工具             | C、MySQL     | 运维     | 2017  | [Git](https://github.com/Meituan-Dianping/SQLAdvisor) | +    |
+| 7    | Tair       | Tair                              | 键值对数据存储系统      | C            | 基础服务 | 2016  | [Git](https://github.com/alibaba/tair)                | +    |
+| 8    | MyFlash    | Meituan MyFlash                   | MySQL 闪回工具          |              | 运维     | 2017  | [Git]( https://github.com/Meituan-Dianping/)          | +    |
+| 9    | squirrel   | Meituan squirrel                  | 键值对内存数据库        | Redis        | 基础服务 | 2017  | /                                                     | -    |
+| 10   | Zebra      | Zebra                             | 数据库访问层中间件      | /            | 物流     | 2016  | [Git](https://github.com/Meituan-Dianping/Zebra)      | -    |
+| 11   | Alluxio    | Alluxio                           | 内存式存储系统          | Java         | 数据平台 | 2018  | [Git](https://github.com/Alluxio/alluxio)             | +    |
+| 12   | Druid      | Apache Druid                      | 高性能实时分析数据库    | Java         | /        | 2018  | [Git](https://github.com/apache/druid/)               | +    |
+| 13   | TiDB       | PingCAP TiDBRapidsDB              | 在线事务/分析处理数据库 | Go           | 基础服务 | 2018  | [Git](https://github.com/pingcap/tidb)                | ++   |
+| 14   | Doris      | Apache Doris                      | OLAP 引擎               | Mesa、Impala | 外卖     | 2020  | [官网](http://doris.apache.org)                       | +    |
 
 ## :bear:4.大数据
 
@@ -104,6 +105,9 @@
 | 10   | XGBoost            | XGBoost                                                 | 机器学习平台              | /           | 配送         | 2019 | /                                         | +    |
 | 11   | BERT               | Bidirectional Encoder Representations from Transformers | 深度双向语言表征模型      | Transformer | 搜索         | 2019 | /                                         | ++   |
 | 12   | Jupyter            | Kaggle Kernels Jupyter                                  | 数据分析平台              | /           | 民宿         | 2019 | /                                         | +    |
+| 13   | Augur              | Augur                                                   | 在线预估框架              | Transformer | 搜索         | 2020 | /                                         | +    |
+| 14   | Transformer        | Transformer                                             | 编码解码层                | Attention   | 搜索         | 2020 | /                                         | ++   |
+| 15   | Turing             | Turing                                                  | 机器学习平台              | Java        | 配送         | 2020 | /                                         | -    |
 
 ## :monkey:6.运维
 
