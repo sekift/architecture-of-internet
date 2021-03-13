@@ -121,6 +121,7 @@
 | 6    | Jenkins    | Jenkins                                  | 持续集成工具           | Java              | 基础服务 | 2017 | [官网](https://www.jenkins.io/) | +++  |
 | 7    | HULK       | Meituan HULK                             | 容器管理及弹性伸缩平台 | /                 | 基础服务 | 2017 | /                               | -    |
 | 8    | Kubernetes | Kubernetes                               | 资源管理和调度         | /                 | 基础服务 | 2018 | [官网](https://kubernetes.io/)  | +++  |
+| 9    | Horae      | Horae                                    | 时序数据异常检测系统   | /                 | 交易     | 2020 | /                               | +    |
 
 ## :camel:7.安全
 
@@ -129,7 +130,7 @@
 | 1    | Nmap    | Network Mapper | 端口扫描器         | python | 基础服务 | 2017 | [官网](https://nmap.org/)                           | +    |
 | 2    | Masscan | Masscan        | 端口扫描器         | /      | 基础服务 | 2017 | [Git](https://github.com/robertdavidgraham/masscan) | ++   |
 | 3    | drozer  | drozer         | 移动端渗透测试工具 | /      | Android  | 2017 | [链接](https://labs.f-secure.com/tools/drozer/)     | -    |
-| 4    |         |                |                    |        |          |      |                                                     |      |
+| 4    | Zeus    | Zeus           | 规则引擎           | /      | 安全服务 | 2020 | /                                                   | -    |
 
 ## :panda_face:8.测试
 
