@@ -20,59 +20,62 @@
 
 ## :hamster:2.后端
 
-| 序号 | 名称         | 全称                 | 简介                     | 技术栈                            | 应用      | 时间 | 网址                                                         | 发展 |
-| ---- | ------------ | -------------------- | ------------------------ | --------------------------------- | --------- | ---- | ------------------------------------------------------------ | ---- |
-| 1    | Flume        | Apache Flume         | 日志收集系统             | ZooKeeper、gossip、Hadoop、Thrift | 基础服务  | 2013 | [官网](http://flume.apache.org/)                             | ++   |
-| 2    | Solr         | Apache Solr          | 企业级搜索服务器         | Java、Lucene                      | CRM、美旅 | 2014 | [官网](https://lucene.apache.org/solr/)                      | ++   |
-| 3    | Gradle       | Gradle Build Tool    | 自动化构建工具           | Java                              | 基础服务  | 2014 | [官网](https://gradle.org/)                                  | +++  |
-| 4    | RabbitMQ     | RabbitMQ             | 消息队列                 | Erlang                            | 基础服务  | 2016 | [官网](www.rabbitmq.com/)                                    | ++   |
-| 5    | celery       | celery               | 消息传递作业队列         | Python                            | 基础服务  | 2016 | [官网](https://docs.celeryproject.org)                       | -    |
-| 6    | MTrace       | Meituan Trace        | 会话跟踪系统             | Java、Kafka、HBase、Hive          | 基础服务  | 2016 | /                                                            | -    |
-| 7    | MTDDL        | Meituan MTDDL        | 数据访问层中间件         | Java                              | 外卖      | 2016 | /                                                            | --   |
-| 8    | Leaf         | Meituan Leaf         | 分布式ID生成系统         | Java、MySQL                       | 基础服务  | 2016 | [Git](https://github.com/Meituan-Dianping/Leaf)              | -    |
-| 9    | MGW          | Meituan Gateway      | 四层负载均衡网关         | DPDK、RSS                         | 美团云    | 2017 | /                                                            | -    |
-| 10   | Cat          | Meituan Cat          | 实时应用监控平台         | Java                              | 基础服务  | 2017 | [Git](https://github.com/dianping/cat)                       | --   |
-| 11   | Maze         | Maze                 | 规则引擎                 | /                                 | 外卖CRM   | 2017 | /                                                            | -    |
-| 12   | Kerberos     | Kerberos             | 认证服务                 | /                                 | 基础服务  | 2017 | /                                                            | +    |
-| 13   | Rhino        | Meituan Rhino        | 熔断组件                 | /                                 | 基础服务  | 2017 | /                                                            | -    |
-| 14   | ProGuard     | ProGuard             | Java代码优化器           | Java、Kotlin                      | /         | 2018 | [官网](https://www.guardsquare.com)                          | +    |
-| 15   | Netty        | Netty                | 网络通信层框架           | Java                              | 基础服务  | 2018 | [官网](https://netty.io/)                                    | ++   |
-| 16   | Oceanus      | Oceanus              | HTTP服务治理框架         | Nginx、Lua                        | 基础服务  | 2018 | /                                                            | +    |
-| 17   | UAS          | User Action System   | 用户行为系统             | /                                 | 基础服务  | 2018 | /                                                            | +    |
-| 18   | Camus        | Camus                | kafka2hive数据工具       | Kafka、Hive                       | 基础服务  | 2018 | [Git](https://github.com/LinkedInAttic/camus)                | --   |
-| 19   | Canal        | Canal                | 增量订阅和消费组件       | MySQL                             | 物流      | 2018 | [Git](https://github.com/alibaba/canal)                      | +    |
-| 20   | Databus      | Meituan Databus      | 数据库变更实时传输系统   | /                                 | 物流      | 2018 | [Git](https://github.com/linkedin/databus)                   | -    |
-| 21   | DataMan      | Meituan DataMan      | 数据质量监管平台         | /                                 | 美旅      | 2018 | /                                                            | -    |
-| 22   | Quake        | Meituan Quake        | 全链路压测平台           | Mtrace、MySQL                     | /         | 2018 | /                                                            | -    |
-| 23   | Gravity      | Meituan Gravity      | 流程管理组件             | activiti                          | 绩效系统  | 2018 | /                                                            | -    |
-| 24   | Aviator      | Aviator              | 规则表达式引擎           | Java                              | 美旅      | 2018 | [Git](https://github.com/killme2008/aviator)                 | +    |
-| 25   | BTrace       | BTrace               | 动态追踪服务工具         | Java                              | 打车      | 2019 | [Git](https://github.com/btraceio/btrace)                    | +    |
-| 26   | OCTO         | Octopus              | 微服务通信框架及治理平台 | Java、Zookeeper                   | 基础服务  | 2019 | [Git](https://github.com/Meituan-Dianping/octo-rpc)、[Git](https://github.com/Meituan-Dianping/octo-ns)、[Git](https://github.com/Meituan-Dianping/octo-portal) | +    |
-| 27   | Wedge        | Wedge                | 参数配置平台             | /                                 | 搜索广告  | 2019 | /                                                            | -    |
-| 28   | Gulf         | Meituan Gulf         | 日期管理系统             | /                                 | 基础服务  | 2020 | /                                                            | -    |
-| 29   | QA-Assistant | QA-Assistant         | 质量检查                 | /                                 | /         | 2020 | /                                                            | -    |
-| 30   | MNS          | Meituan Name Service | 命名服务                 | OCTO、Zookeeper、Mesh             | 基础服务  | 2020 | /                                                            | +    |
-| 31   | Crane        | Crane                | 分布式定时任务系统       | /                                 | /         | 2020 | /                                                            | +    |
-| 32   | Service Mesh | Serive Mesh          | 服务网格微服务框架       | /                                 | 中间件    | 2020 | /                                                            | ++   |
+| 序号 | 名称         | 全称                 | 简介                     | 技术栈                     | 应用       | 时间 | 网址                                                         | 发展 |
+| ---- | ------------ | -------------------- | ------------------------ | -------------------------- | ---------- | ---- | ------------------------------------------------------------ | ---- |
+| 1    | Flume        | Apache Flume         | 日志收集系统             | ZK、gossip、Hadoop、Thrift | 基础服务   | 2013 | [官网](http://flume.apache.org/)                             | ++   |
+| 2    | Solr         | Apache Solr          | 企业级搜索服务器         | Java、Lucene               | CRM、美旅  | 2014 | [官网](https://lucene.apache.org/solr/)                      | ++   |
+| 3    | Gradle       | Gradle Build Tool    | 自动化构建工具           | Java                       | 基础服务   | 2014 | [官网](https://gradle.org/)                                  | +++  |
+| 4    | RabbitMQ     | RabbitMQ             | 消息队列                 | Erlang                     | 基础服务   | 2016 | [官网](www.rabbitmq.com/)                                    | ++   |
+| 5    | celery       | celery               | 消息传递作业队列         | Python                     | 基础服务   | 2016 | [官网](https://docs.celeryproject.org)                       | -    |
+| 6    | MTrace       | Meituan Trace        | 会话跟踪系统             | Java、Kafka、HBase、Hive   | 基础服务   | 2016 | /                                                            | -    |
+| 7    | MTDDL        | Meituan MTDDL        | 数据访问层中间件         | Java                       | 外卖       | 2016 | /                                                            | --   |
+| 8    | Leaf         | Meituan Leaf         | 分布式ID生成系统         | Java、MySQL                | 基础服务   | 2016 | [Git](https://github.com/Meituan-Dianping/Leaf)              | -    |
+| 9    | MGW          | Meituan Gateway      | 四层负载均衡网关         | DPDK、RSS                  | 美团云     | 2017 | /                                                            | -    |
+| 10   | Cat          | Meituan Cat          | 实时应用监控平台         | Java                       | 基础服务   | 2017 | [Git](https://github.com/dianping/cat)                       | --   |
+| 11   | Maze         | Maze                 | 规则引擎                 | /                          | 外卖CRM    | 2017 | /                                                            | -    |
+| 12   | Kerberos     | Kerberos             | 认证服务                 | /                          | 基础服务   | 2017 | /                                                            | +    |
+| 13   | Rhino        | Meituan Rhino        | 熔断组件                 | /                          | 基础服务   | 2017 | /                                                            | -    |
+| 14   | ProGuard     | ProGuard             | Java代码优化器           | Java、Kotlin               | /          | 2018 | [官网](https://www.guardsquare.com)                          | +    |
+| 15   | Netty        | Netty                | 网络通信层框架           | Java                       | 基础服务   | 2018 | [官网](https://netty.io/)                                    | ++   |
+| 16   | Oceanus      | Oceanus              | HTTP服务治理框架         | Nginx、Lua                 | 基础服务   | 2018 | /                                                            | +    |
+| 17   | UAS          | User Action System   | 用户行为系统             | /                          | 基础服务   | 2018 | /                                                            | +    |
+| 18   | Camus        | Camus                | kafka2hive数据工具       | Kafka、Hive                | 基础服务   | 2018 | [Git](https://github.com/LinkedInAttic/camus)                | --   |
+| 19   | Canal        | Canal                | 增量订阅和消费组件       | MySQL                      | 物流       | 2018 | [Git](https://github.com/alibaba/canal)                      | +    |
+| 20   | Databus      | Meituan Databus      | 数据库变更实时传输系统   | /                          | 物流       | 2018 | [Git](https://github.com/linkedin/databus)                   | -    |
+| 21   | DataMan      | Meituan DataMan      | 数据质量监管平台         | /                          | 美旅       | 2018 | /                                                            | -    |
+| 22   | Quake        | Meituan Quake        | 全链路压测平台           | Mtrace、MySQL              | /          | 2018 | /                                                            | -    |
+| 23   | Gravity      | Meituan Gravity      | 流程管理组件             | activiti                   | 绩效系统   | 2018 | /                                                            | -    |
+| 24   | Aviator      | Aviator              | 规则表达式引擎           | Java                       | 美旅       | 2018 | [Git](https://github.com/killme2008/aviator)                 | +    |
+| 25   | BTrace       | BTrace               | 动态追踪服务工具         | Java                       | 打车       | 2019 | [Git](https://github.com/btraceio/btrace)                    | +    |
+| 26   | OCTO         | Octopus              | 微服务通信框架及治理平台 | Java、Zookeeper            | 基础服务   | 2019 | [Git](https://github.com/Meituan-Dianping/octo-rpc)、[Git](https://github.com/Meituan-Dianping/octo-ns)、[Git](https://github.com/Meituan-Dianping/octo-portal) | +    |
+| 27   | Wedge        | Wedge                | 参数配置平台             | /                          | 搜索广告   | 2019 | /                                                            | -    |
+| 28   | Gulf         | Meituan Gulf         | 日期管理系统             | /                          | 基础服务   | 2020 | /                                                            | -    |
+| 29   | QA-Assistant | QA-Assistant         | 质量检查                 | /                          | /          | 2020 | /                                                            | -    |
+| 30   | MNS          | Meituan Name Service | 命名服务                 | OCTO、Zk、Mesh             | 基础服务   | 2020 | /                                                            | +    |
+| 31   | Crane        | Crane                | 分布式定时任务系统       | /                          | /          | 2020 | /                                                            | +    |
+| 32   | Service Mesh | Serive Mesh          | 服务网格微服务框架       | /                          | 中间件     | 2020 | /                                                            | ++   |
+| 33   | Shepherd     | Shepherd API         | API网关服务              | Java                       | 公共组件   | 2021 | /                                                            | -    |
+| 34   | Pike         | Pike 2.0             | 终端消息投递服务         | Shark                      | 前端、直播 | 2021 | /                                                            | -    |
 
 ## :frog:3.数据库
 
-| 序号 | 名称       | 全称                              | 简介                    | 技术栈       | 应用     | 时间  | 网址                                                  | 发展 |
-| ---- | ---------- | --------------------------------- | ----------------------- | ------------ | -------- | ----- | ----------------------------------------------------- | ---- |
-| 1    | OpenTSDB   | The Scalable Time Series Database | 时间序列数据库          | HBase        | 监控平台 | 2014  | [官网](http://opentsdb.net/)                          | +    |
-| 2    | MySQL      | MySQL                             | 开源数据库              | /            | 基础服务 | 2010  | [官网](https://www.mysql.com/)                        | +++  |
-| 3    | InfluxDB   | InfluxData                        | 时序数据库              | /            | 压测工具 | 2016  | [官网](www.influxdata.com/)                           | +    |
-| 4    | Redis      | Redis                             | 键值对内存数据库        | ANSI C       | 基础服务 | 2013  | [官网](https://redis.io/)                             | ++   |
-| 5    | DBProxy    | Meituan DBProxy                   | 数据库中间件            | C、Altas     | 基础服务 | 2015+ | [Git](https://github.com/Meituan-Dianping/DBProxy)    | -    |
-| 6    | SQLAdvisor | Meituan SQLAdvisor                | SQL优化工具             | C、MySQL     | 运维     | 2017  | [Git](https://github.com/Meituan-Dianping/SQLAdvisor) | +    |
-| 7    | Tair       | Tair                              | 键值对数据存储系统      | C            | 基础服务 | 2016  | [Git](https://github.com/alibaba/tair)                | +    |
-| 8    | MyFlash    | Meituan MyFlash                   | MySQL 闪回工具          |              | 运维     | 2017  | [Git]( https://github.com/Meituan-Dianping/)          | +    |
-| 9    | squirrel   | Meituan squirrel                  | 键值对内存数据库        | Redis        | 基础服务 | 2017  | /                                                     | -    |
-| 10   | Zebra      | Zebra                             | 数据库访问层中间件      | /            | 物流     | 2016  | [Git](https://github.com/Meituan-Dianping/Zebra)      | -    |
-| 11   | Alluxio    | Alluxio                           | 内存式存储系统          | Java         | 数据平台 | 2018  | [Git](https://github.com/Alluxio/alluxio)             | +    |
-| 12   | Druid      | Apache Druid                      | 高性能实时分析数据库    | Java         | /        | 2018  | [Git](https://github.com/apache/druid/)               | +    |
-| 13   | TiDB       | PingCAP TiDBRapidsDB              | 在线事务/分析处理数据库 | Go           | 基础服务 | 2018  | [Git](https://github.com/pingcap/tidb)                | ++   |
-| 14   | Doris      | Apache Doris                      | OLAP 引擎               | Mesa、Impala | 外卖     | 2020  | [官网](http://doris.apache.org)                       | +    |
+| 序号 | 名称        | 全称                              | 简介                    | 技术栈       | 应用     | 时间  | 网址                                                  | 发展 |
+| ---- | ----------- | --------------------------------- | ----------------------- | ------------ | -------- | ----- | ----------------------------------------------------- | ---- |
+| 1    | OpenTSDB    | The Scalable Time Series Database | 时间序列数据库          | HBase        | 监控平台 | 2014  | [官网](http://opentsdb.net/)                          | +    |
+| 2    | MySQL       | MySQL                             | 开源数据库              | /            | 基础服务 | 2010  | [官网](https://www.mysql.com/)                        | +++  |
+| 3    | InfluxDB    | InfluxData                        | 时序数据库              | /            | 压测工具 | 2016  | [官网](www.influxdata.com/)                           | +    |
+| 4    | Redis       | Redis                             | 键值对内存数据库        | ANSI C       | 基础服务 | 2013  | [官网](https://redis.io/)                             | ++   |
+| 5    | DBProxy     | Meituan DBProxy                   | 数据库中间件            | C、Altas     | 基础服务 | 2015+ | [Git](https://github.com/Meituan-Dianping/DBProxy)    | -    |
+| 6    | SQLAdvisor  | Meituan SQLAdvisor                | SQL优化工具             | C、MySQL     | 运维     | 2017  | [Git](https://github.com/Meituan-Dianping/SQLAdvisor) | +    |
+| 7    | Tair        | Tair                              | 键值对数据存储系统      | C            | 基础服务 | 2016  | [Git](https://github.com/alibaba/tair)                | +    |
+| 8    | MyFlash     | Meituan MyFlash                   | MySQL 闪回工具          |              | 运维     | 2017  | [Git]( https://github.com/Meituan-Dianping/)          | +    |
+| 9    | squirrel    | Meituan squirrel                  | 键值对内存数据库        | Redis        | 基础服务 | 2017  | /                                                     | -    |
+| 10   | Zebra       | Zebra                             | 数据库访问层中间件      | /            | 物流     | 2016  | [Git](https://github.com/Meituan-Dianping/Zebra)      | -    |
+| 11   | Alluxio     | Alluxio                           | 内存式存储系统          | Java         | 数据平台 | 2018  | [Git](https://github.com/Alluxio/alluxio)             | +    |
+| 12   | Druid       | Apache Druid                      | 高性能实时分析数据库    | Java         | /        | 2018  | [Git](https://github.com/apache/druid/)               | +    |
+| 13   | TiDB        | PingCAP TiDBRapidsDB              | 在线事务/分析处理数据库 | Go           | 基础服务 | 2018  | [Git](https://github.com/pingcap/tidb)                | ++   |
+| 14   | Doris       | Apache Doris                      | OLAP 引擎               | Mesa、Impala | 外卖     | 2020  | [官网](http://doris.apache.org)                       | +    |
+| 15   | NebulaGraph | NebulaGraph                       | 图数据库                | C++          | 基础服务 | 2021  | [Git](https://github.com/vesoft-inc/nebula-graph)     | ++   |
 
 ## :bear:4.大数据
 
@@ -91,23 +94,28 @@
 
 ## :cow:5.算法与AI
 
-| 序号 | 名称               | 全称                                                    | 简介                      | 技术栈      | 应用         | 时间 | 网址                                      | 发展 |
-| ---- | ------------------ | ------------------------------------------------------- | ------------------------- | ----------- | ------------ | ---- | ----------------------------------------- | ---- |
-| 1    | POI                | POI推荐                                                 | 机器学习的POI品类推荐算法 | Naive Bayes | 商家数据中心 | 2014 | /                                         | -    |
-| 2    | AlexNet            | AlexNet                                                 | 卷积神经网络              | CNN         | 图像识别     | 2017 | /                                         | +    |
-| 3    | GBDT               | Gradient Boosted Decision Trees                         | 梯度提升决策树            | /           | ETA配送      | 2017 | /                                         | +    |
-| 4    | Core ML            | Core ML                                                 | 集成机器学习模型          | Python      | AR           | 2018 | /                                         | +    |
-| 5    | ps-lite            | ps-lite                                                 | 模型的训练框架            | C++         | 猜你喜欢     | 2018 | [Git](https://github.com/dmlc/ps-lite)    | +    |
-| 6    | Kaldi              | Kaldi                                                   | 语音识别系统              | C++         | /            | 2018 | [Git](https://github.com/kaldi-asr/kaldi) | ++   |
-| 7    | Wide & Deep        | Wide & Deep                                             | 分类和回归模型            | TensorFlow  | 广告         | 2018 | /                                         | ++   |
-| 8    | TensorFlow Serving | TensorFlow Serving                                      | 机器学习模型              | TensorFlow  | 广告         | 2018 | /                                         | ++   |
-| 9    | Faster R-CNN       | Faster R-CNN                                            | 深度学习目标检测框架      | CNN         | OCR应用      | 2018 | /                                         | +    |
-| 10   | XGBoost            | XGBoost                                                 | 机器学习平台              | /           | 配送         | 2019 | /                                         | +    |
-| 11   | BERT               | Bidirectional Encoder Representations from Transformers | 深度双向语言表征模型      | Transformer | 搜索         | 2019 | /                                         | ++   |
-| 12   | Jupyter            | Kaggle Kernels Jupyter                                  | 数据分析平台              | /           | 民宿         | 2019 | /                                         | +    |
-| 13   | Augur              | Augur                                                   | 在线预估框架              | Transformer | 搜索         | 2020 | /                                         | +    |
-| 14   | Transformer        | Transformer                                             | 编码解码层                | Attention   | 搜索         | 2020 | /                                         | ++   |
-| 15   | Turing             | Turing                                                  | 机器学习平台              | Java        | 配送         | 2020 | /                                         | -    |
+| 序号 | 名称               | 全称                                                    | 简介                         | 技术栈      | 应用                 | 时间 | 网址                                            | 发展 |
+| ---- | ------------------ | ------------------------------------------------------- | ---------------------------- | ----------- | -------------------- | ---- | ----------------------------------------------- | ---- |
+| 1    | POI                | POI推荐                                                 | 机器学习的POI品类推荐算法    | Naive Bayes | 商家数据中心         | 2014 | /                                               | -    |
+| 2    | AlexNet            | AlexNet                                                 | 卷积神经网络                 | CNN         | 图像识别             | 2017 | /                                               | +    |
+| 3    | GBDT               | Gradient Boosted Decision Trees                         | 梯度提升决策树               | /           | ETA配送              | 2017 | /                                               | +    |
+| 4    | Core ML            | Core ML                                                 | 集成机器学习模型             | Python      | AR                   | 2018 | /                                               | +    |
+| 5    | ps-lite            | ps-lite                                                 | 模型的训练框架               | C++         | 猜你喜欢             | 2018 | [Git](https://github.com/dmlc/ps-lite)          | +    |
+| 6    | Kaldi              | Kaldi                                                   | 语音识别系统                 | C++         | /                    | 2018 | [Git](https://github.com/kaldi-asr/kaldi)       | ++   |
+| 7    | Wide & Deep        | Wide & Deep                                             | 分类和回归模型               | TensorFlow  | 广告                 | 2018 | /                                               | ++   |
+| 8    | TensorFlow Serving | TensorFlow Serving                                      | 机器学习模型                 | TensorFlow  | 广告                 | 2018 | /                                               | ++   |
+| 9    | Faster R-CNN       | Faster R-CNN                                            | 深度学习目标检测框架         | CNN         | OCR应用              | 2018 | /                                               | +    |
+| 10   | XGBoost            | XGBoost                                                 | 机器学习平台                 | /           | 配送                 | 2019 | /                                               | +    |
+| 11   | BERT               | Bidirectional Encoder Representations from Transformers | 深度双向语言表征模型         | Transformer | 搜索                 | 2019 | /                                               | ++   |
+| 12   | Jupyter            | Kaggle Kernels Jupyter                                  | 数据分析平台                 | /           | 民宿                 | 2019 | /                                               | +    |
+| 13   | Augur              | Augur                                                   | 在线预估框架                 | Transformer | 搜索                 | 2020 | /                                               | +    |
+| 14   | Transformer        | Transformer                                             | 编码解码层                   | Attention   | 搜索                 | 2020 | /                                               | ++   |
+| 15   | Turing             | Turing                                                  | 机器学习平台                 | Java        | 配送                 | 2020 | /                                               | -    |
+| 16   | CA-TCN             | CA-TCN                                                  | 跨会话感知的时间卷积神经网络 | RNN         | 增长技术             | 2020 | /                                               | -    |
+| 17   | DARTS-             | DARTS-                                                  | 神经网络架构搜索             | NAS         | 视觉平台             | 2021 | [Git](https://github.com/Meituan-AutoML/DARTS-) | +    |
+| 18   | VisTR              | Video Instance Segmentation with Transformers           | 视频分割识别算法             | CNN         | /                    | 2021 | [Git](https://github.com/Epiphqny/VisTR)        | +    |
+| 19   | ConSERT            | ConSERT                                                 | 对比学习的句子表示迁移框架   | BERT        | 知识图谱、KBQA、搜索 | 2021 | [Git](https://github.com/yym6472/ConSERT)       | -    |
+| 20   | DPIN               | DPIN                                                    | CTR模型                      | DL          | 广告平台             | 2021 | /                                               | -    |
 
 ## :monkey:6.运维
 
@@ -122,6 +130,7 @@
 | 7    | HULK       | Meituan HULK                             | 容器管理及弹性伸缩平台 | /                 | 基础服务 | 2017 | /                               | -    |
 | 8    | Kubernetes | Kubernetes                               | 资源管理和调度         | /                 | 基础服务 | 2018 | [官网](https://kubernetes.io/)  | +++  |
 | 9    | Horae      | Horae                                    | 时序数据异常检测系统   | /                 | 交易     | 2020 | /                               | +    |
+| 10   | Nest       | Nest                                     | Serverless平台         | Nginx、K8S        | 前端     | 2021 | /                               | -    |
 
 ## :camel:7.安全
 
