@@ -55,12 +55,12 @@
 
 ## :cow:5.算法与AI
 
-| 序号 | 名称    | 全称    | 简介           | 技术栈 | 应用     | 时间 | 网址                                    | 发展 |
-| ---- | ------- | ------- | -------------- | ------ | -------- | ---- | --------------------------------------- | ---- |
-| 1    | Euler   | Euler   | 图深度学习框架 | LINE   | 阿里妈妈 | 2019 | [Git](https://github.com/alibaba/euler) | +    |
-| 2    | PairXNN | PairXNN |                |        |          |      |                                         |      |
-| 3    |         |         |                |        |          |      |                                         |      |
-| 4    |         |         |                |        |          |      |                                         |      |
+| 序号 | 名称    | 全称                                     | 简介           | 技术栈 | 应用     | 时间 | 网址                                          | 发展 |
+| ---- | ------- | ---------------------------------------- | -------------- | ------ | -------- | ---- | --------------------------------------------- | ---- |
+| 1    | Euler   | Euler                                    | 图深度学习框架 | LINE   | 阿里妈妈 | 2019 | [Git](https://github.com/alibaba/euler)       | +    |
+| 2    | PairXNN | PairXNN                                  |                |        |          |      |                                               |      |
+| 3    | DCAF    | Dynamic Computation Allocation Framework | 动态算力分配   | -      | 淘宝     | 2020 | [paper](https://arxiv.org/pdf/2006.09684.pdf) | +    |
+| 4    |         |                                          |                |        |          |      |                                               |      |
 
 ## :monkey:6.运维
 
@@ -98,3 +98,4 @@
 | 3    | Sophix       | Sophix       | 热修复技术             | Android | 手淘 | 2017  | /                                         | --   |
 | 4    | Atlas        | Atlas        | 协同开发               | Android | 手淘 | 2017  | [Git](https://github.com/alibaba/atlas)   | +    |
 | 5    | Galileo      | Galileo      | iOS自动化测试          | iOS     | 天猫 | 2017  | /                                         | -    |
+| 6    | Rax          | Rax          | 快速构建多端应用       | React   | 淘宝 | 2020  | [官网](https://rax.js.org/)               | +    |

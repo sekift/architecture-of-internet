@@ -17,6 +17,7 @@
 | 11   | BS        | Build Service  | 静态资源托管方案                 | Myers、CDN | 前端                       | 2017  | /                                                     | -    |
 | 12   | mpvue     | mpvue          | 小程序开发工具                   | vue、h5    | 酒旅                       | 2017  | [Git](https://github.com/Meituan-Dianping/mpvue)      | -    |
 | 13   | Bifrost   | Bifrost        | 微前端框架                       | vue        | 闪购                       | 2019  | /                                                     | -    |
+| 14   | Page      | Page-佩奇      | 跨端一体化富文本管理             | js、Node   | 医药                       | 2021  | /                                                     | -    |
 
 ## :hamster:2.后端
 
@@ -56,6 +57,7 @@
 | 32   | Service Mesh | Serive Mesh          | 服务网格微服务框架       | /                          | 中间件     | 2020 | /                                                            | ++   |
 | 33   | Shepherd     | Shepherd API         | API网关服务              | Java                       | 公共组件   | 2021 | /                                                            | -    |
 | 34   | Pike         | Pike 2.0             | 终端消息投递服务         | Shark                      | 前端、直播 | 2021 | /                                                            | -    |
+| 35   | GraphQL      | GraphQL              | 图查询语言               | Java                       | -          | 2021 |                                                              | +    |
 
 ## :frog:3.数据库
 
@@ -181,4 +183,5 @@
 | 21   | MRN           | Meituan React Native          | 移动应用开发框架       | React Native    | 终端       | 2019  | /                                                    | +    |
 | 22   | Probe         | Probe                         | Android线上OOM定位组件 | /               | 配送       | 2019  | /                                                    | -    |
 | 23   | Sketch        | Meituan Sketch                | 积木UI统一解决方案     | /               | 前端       | 2020  | /                                                    | +    |
+| 24   | R2X           | React2X                       | 终端容器无关化框架     | React           | 前端       | 2021  | /                                                    | -    |
 
