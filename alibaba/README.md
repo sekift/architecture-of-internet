@@ -11,6 +11,7 @@
 | 5    | Egg          | Egg          | Web开发基础框架       | Node、Koa | 基础服务 | 2017  | [官网](https://eggjs.org/)                                   | -    |
 | 6    | imgCook      | imgCook      | 设计稿转代码          | JS        | 基础服务 | 2019  | [官网](https://www.imgcook.com/)                             | ++   |
 | 7    | pipcook      | pipcook      | 组件类型识别          | TS        | 基础服务 | 2019  | [Git](https://github.com/alibaba/pipcook)                    | +    |
+| 8    | F2etest      | F2etest      | 多浏览器兼容性测试    | JS、Java  | 基础服务 | 2016  | [Git](https://github.com/alibaba/f2etest)                    | -    |
 
 ## :hamster:2.后端
 
@@ -33,6 +34,8 @@
 | 15   | Dragonfly      | Dragonfly      | 文件分发系统       | Java         | /        | 2017 | [Git](https://github.com/alibaba/Dragonfly) | -    |
 | 16   | Sigma          | Sigma          | 容器调度系统       | Java         | 基础服务 | 2018 | /                                           | -    |
 | 17   | JarsLink       | JarsLink       | 模块化开发框架     | Java         | 蚂蚁     | 2018 | /                                           | -    |
+| 18   | asyncload      | asyncload      | 步并行加载工具     | Java         | /        | 2018 | [Git](https://github.com/alibaba/asyncload) | --   |
+| 19   | ByteKit        | ByteKit        | Java Bytecode Kit  | Java         | /        | 2020 | [Git](https://github.com/alibaba/bytekit)   | +    |
 
 ## :frog:3.数据库
 
@@ -64,12 +67,12 @@
 
 ## :monkey:6.运维
 
-| 序号 | 名称 | 全称 | 简介 | 技术栈 | 应用 | 时间 | 网址 | 发展 |
-| ---- | ---- | ---- | ---- | ------ | ---- | ---- | ---- | ---- |
-| 1    |      |      |      |        |      |      |      |      |
-| 2    |      |      |      |        |      |      |      |      |
-| 3    |      |      |      |        |      |      |      |      |
-| 4    |      |      |      |        |      |      |      |      |
+| 序号 | 名称  | 全称           | 简介     | 技术栈 | 应用 | 时间 | 网址                                    | 发展 |
+| ---- | ----- | -------------- | -------- | ------ | ---- | ---- | --------------------------------------- | ---- |
+| 1    | Pouch | PouchContainer | 镜像分发 | Go     | 电商 | 2016 | [Git](https://github.com/alibaba/pouch) | -    |
+| 2    |       |                |          |        |      |      |                                         |      |
+| 3    |       |                |          |        |      |      |                                         |      |
+| 4    |       |                |          |        |      |      |                                         |      |
 
 ## :camel:7.安全
 
@@ -99,3 +102,5 @@
 | 4    | Atlas        | Atlas        | 协同开发               | Android | 手淘 | 2017  | [Git](https://github.com/alibaba/atlas)   | +    |
 | 5    | Galileo      | Galileo      | iOS自动化测试          | iOS     | 天猫 | 2017  | /                                         | -    |
 | 6    | Rax          | Rax          | 快速构建多端应用       | React   | 淘宝 | 2020  | [官网](https://rax.js.org/)               | +    |
+| 7    | AndFix       | AndFix       | Android 应用热修复工具 | Android | 淘宝 | 2015  | [Git](https://github.com/alibaba/AndFix)  | -    |
+| 8    | coobjc       | coobjc       | 协程功能               | iOS     | /    | 2019  | [Git](https://github.com/alibaba/coobjc)  | -    |

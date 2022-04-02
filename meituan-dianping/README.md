@@ -58,6 +58,7 @@
 | 33   | Shepherd     | Shepherd API         | API网关服务              | Java                       | 公共组件   | 2021 | /                                                            | -    |
 | 34   | Pike         | Pike 2.0             | 终端消息投递服务         | Shark                      | 前端、直播 | 2021 | /                                                            | -    |
 | 35   | GraphQL      | GraphQL              | 图查询语言               | Java                       | -          | 2021 |                                                              | +    |
+| 36   | Sonic        | Sonic                | 热部署的IDEA插件         | Java                       | 到家       | 2020 | /                                                            | -    |
 
 ## :frog:3.数据库
 
