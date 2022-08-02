@@ -55,9 +55,9 @@
 | 30   | MNS          | Meituan Name Service | 命名服务                 | OCTO、Zk、Mesh             | 基础服务   | 2020 | /                                                            | +    |
 | 31   | Crane        | Crane                | 分布式定时任务系统       | /                          | /          | 2020 | /                                                            | +    |
 | 32   | Service Mesh | Serive Mesh          | 服务网格微服务框架       | /                          | 中间件     | 2020 | /                                                            | ++   |
-| 33   | Shepherd     | Shepherd API         | API网关服务              | Java                       | 公共组件   | 2021 | /                                                            | -    |
+| 33   | Shepherd     | Shepherd API         | API网关服务              | Java                       | 公共组件   | 2021 | /                                                            | ++   |
 | 34   | Pike         | Pike 2.0             | 终端消息投递服务         | Shark                      | 前端、直播 | 2021 | /                                                            | -    |
-| 35   | GraphQL      | GraphQL              | 图查询语言               | Java                       | -          | 2021 |                                                              | +    |
+| 35   | GraphQL      | GraphQL              | 图查询语言               | Java                       | /          | 2021 |                                                              | +    |
 | 36   | Sonic        | Sonic                | 热部署的IDEA插件         | Java                       | 到家       | 2020 | /                                                            | -    |
 
 ## :frog:3.数据库
