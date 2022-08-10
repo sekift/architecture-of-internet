@@ -2,161 +2,160 @@
 
 ## :cat:1.前端
 
-| 序号 | 名称                 | 全称                    | 简介                        | 技术栈         | 应用     | 时间  | 网址                                                         | 发展 |
-| ---- | -------------------- | ----------------------- | --------------------------- | -------------- | -------- | ----- | ------------------------------------------------------------ | ---- |
-| 1    | Weex                 | Weex                    | Web开发原生应用框架         | JS、Vue        | /        | 2018  | [官网](https://weex.apache.org)<br />[Git](https://github.com/alibaba/weex) | ++   |
-| 2    | Antd Desigin         | Antd Desigin            | UI 设计组件库               | JS、vue        | 蚂蚁     | 2019  | [Git](https://github.com/ant-design/ant-design)              | ++   |
-| 3    | BindingX             | BindingX                | 交互设计                    | Weex           | 手淘     | 2018  | [Git](https://alibaba.github.io/bindingx/guide/cn_introduce) | -    |
-| 4    | Node                 | Node.js                 | JavaScript 运行时工具       | /              | 基础服务 | 2011- | [官网](https://nodejs.org)                                   | ++   |
-| 5    | Egg                  | Egg                     | Web开发基础框架             | Node、Koa      | 基础服务 | 2017  | [官网](https://eggjs.org/)                                   | -    |
-| 6    | imgCook              | imgCook                 | 设计稿转代码                | JS             | 基础服务 | 2019  | [官网](https://www.imgcook.com/)                             | ++   |
-| 7    | pipcook              | pipcook                 | 组件类型识别                | TS             | 基础服务 | 2019  | [Git](https://github.com/alibaba/pipcook)                    | +    |
-| 8    | F2etest              | F2etest                 | 多浏览器兼容性测试          | JS、Java       | 基础服务 | 2016  | [Git](https://github.com/alibaba/f2etest)                    | -    |
-| 9    | AnyProxy             | AnyProxy                | 代理服务器                  | NodeJS         | 基础服务 | 2016  | [Git](https://github.com/alibaba/anyproxy)                   | +    |
-| 10   | AList                | Ali List                | 表单解决方案                | TypeScript     | /        | 2021  | [Git](https://github.com/alibaba/alist)                      | --   |
-| 11   | Funcraft             | Funcraft                | Serverless 应用部署工具     | JS、C++        | /        | 2020  | [Git](https://github.com/alibaba/funcraft)                   | --   |
-| 12   | LightProxy           | LightProxy              | 全能代理抓包工具            | TypeScript     | IFE      | 2020  | [Git](https://github.com/alibaba/lightproxy)                 | +    |
-| 13   | Beidou               | Beidou                  | 北斗同构框架                | JS、NodeJS     | /        | 2018  | [Git](https://github.com/alibaba/beidou)                     | -    |
-| 14   | Kiwi                 | Kiwi                    | 国际化翻译解决方案          | TypeScript     | /        | 2019  | [Git](https://github.com/alibaba/kiwi)                       | +    |
-| 15   | ChatUI               | ChatUI                  | 对话式交互框架              | TypeScript     | 小蜜     | 2021  | [Git](https://github.com/alibaba/ChatUI)                     | ++   |
-| 16   | f2e-spec             | f2e-spec                | 前端规约及配套工具          | JS             | 基础服务 | 2021  | [Git](https://github.com/alibaba/f2e-spec)                   | ++   |
-| 17   | Pont                 | Pont                    | 接口文档平台                | TypeScript     | 基础服务 | 2020  | [Git](https://github.com/alibaba/pont)                       | ++   |
-| 18   | Sifo                 | schema-plugin-flow      | 插件式前端开发框架          | JS、TypeScript | 阿里云   | 2020  | [Git](https://github.com/alibaba/schema-plugin-flow)         | ++   |
-| 19   | react-intl-universal | react-intl-universal    | 国际化的React包             | JS             | /        | 2022  | [Git](https://github.com/alibaba/react-intl-universal)       | ++   |
-| 20   | Canvas UI            | Canvas UI               | 通用UI渲染器                | TypeScript     | /        | 2022  | [Git](https://github.com/alibaba/canvas-ui)                  | ++   |
-| 21   | Dawn                 | Dawn                    | 前端构建和工程化工具        | TypeScript     | 业务运营 | 2021  | [Git](https://github.com/alibaba/dawn)                       | +    |
-| 22   | UI Recorder          | UI Recorder             | UI 自动化录制工具           | JS             | /        | 2015  | [Git](https://github.com/alibaba/uirecorder)                 | ++   |
-| 23   | butterfly            | butterfly               | 流程图组件                  | JS             | /        | 2021  | [Git](https://github.com/alibaba/butterfly)                  | +    |
-| 24   | Designable           | Designable              | 可视化设计工具              | TypeScript     | /        | 2021  | [Git](https://github.com/alibaba/designable)                 | +    |
-| 25   | x-render             | x-render                | 图表解决方案                | JS             | 基础     | 2021  | [Git](https://github.com/alibaba/x-render)                   | +    |
-| 26   | ali-react-table      | ali-react-table         | 高性能React表格组件         | TypeScript     | /        | 2020  | [Git](https://github.com/alibaba/ali-react-table)            | +    |
-| 27   | GSI                  | General Scene Interface | Web 3D 实时渲染             | TypeScript     | /        | 2021  | [Git](https://github.com/alibaba/general-scene-interface)    | +    |
-| 28   | Polaris              | Polaris.gl              | 分层空间数据可视化框架      | TypeScript     | /        | 2021  | [Git](https://github.com/alibaba/spatial-data-vis-framework) | +    |
-| 29   | ICE                  | icejs                   | 基于 React 的渐进式研发框架 | TypeScript     | /        | 2021  | [Git](https://github.com/alibaba/ice)                        | +    |
-| 30   | formily              | formily                 | 表单树渲染框架              | TypeScript     | /        | 2021  | [Git](https://github.com/alibaba/formily)                    | +    |
-| 31   | hooks                | hooks                   | 高可用React Hook框架        | TypeScript     | /        | 2020  | [Git](https://github.com/alibaba/hooks)                      | +    |
+| 序号 | 项目                 | 名称                        | 简介                                                         | 技术栈         | 应用     | 时间  | 网址                                                         | 发展                                                       |
+| ---- | -------------------- | --------------------------- | ------------------------------------------------------------ | -------------- | -------- | ----- | ------------------------------------------------------------ | ---------------------------------------------------------- |
+| 1    | Weex                 | Web开发原生应用框架         | A framework for building Mobile cross-platform UI。          | JS、Vue        | /        | 2018  | [官网](https://weex.apache.org)<br />[Git](https://github.com/alibaba/weex) | ++                                                         |
+| 2    | Antd Desigin         | UI 设计组件库               | 一套企业级 UI 设计语言和 React 组件库。                      | JS、vue        | 蚂蚁     | 2019  | [Git](https://github.com/ant-design/ant-design)              | ++                                                         |
+| 3    | BindingX             | 交互设计                    | BindingX 是解决weex和React Native上富交互问题的一种解决方案。解决交互卡顿问题，带来更优秀的用户体验。 | Weex           | 手淘     | 2018  | [Git](https://alibaba.github.io/bindingx/guide/cn_introduce) | -                                                          |
+| 4    | Node                 | JavaScript 运行时工具       | Node.js 是一个跨平台的 JavaScript 运行时环境。 Node.js 使用高效、轻量级的事件驱动、非阻塞 I/O 模型。 | /              | 基础服务 | 2011- | [官网](https://nodejs.org)                                   | ++                                                         |
+| 5    | Egg                  | Web开发基础框架             | 企业级的Node.js开发框架。                                    | Node、Koa      | 基础服务 | 2017  | [官网](https://eggjs.org/)                                   | -                                                          |
+| 6    | imgCook              | 设计稿转代码                | 设计稿智能生成代码工具                                       | JS             | 基础服务 | 2019  | [官网](https://www.imgcook.com/)                             | ++                                                         |
+| 7    | pipcook              | 组件类型识别                | [Pipcook](https://github.com/alibaba/pipcook) 项目是一个开源工具集，它能让 Web 开发者更好地使用机器学习，从而开启和加速前端智能化时代！ | TS             | 基础服务 | 2019  | [Git](https://github.com/alibaba/pipcook)                    | +                                                          |
+| 8    | hooks                | 高可用React Hook框架        | 一套高质量可靠的 React Hooks 库                              | TypeScript     | /        | 2020  | [Git](https://github.com/alibaba/hooks)                      | +                                                          |
+| 9    | AnyProxy             | 代理服务器                  | AnyProxy是一个基于NodeJS的，可供插件配置的HTTP/HTTPS代理服务器。 | NodeJS         | 基础服务 | 2016  | [Git](https://github.com/alibaba/anyproxy)                   | +                                                          |
+| 10   | AList                | 表单解决方案                | Alibaba Group Unified List Solution.                         | TypeScript     | /        | 2021  | [Git](https://github.com/alibaba/alist)                      | --                                                         |
+| 11   | Funcraft             | Serverless 应用部署工具     | [Fun](https://github.com/aliyun/fun) 是一个用于支持 Serverless 应用部署的工具，能帮助您便捷地管理函数计算、API 网关、日志服务等资源。 | JS、C++        | /        | 2020  | [Git](https://github.com/alibaba/funcraft)                   | [升级](https://github.com/serverless-devs/serverless-devs) |
+| 12   | LightProxy           | 全能代理抓包工具            | LightProxy 是基于Electron` 和 `whistle的开源桌面代理软件，致力于让前端开发人员能够精确的掌握自己的开发环境，通过 `HTTP` 代理使用规则转发、修改每一个请求和响应的内容。 | TypeScript     | IFE      | 2020  | [Git](https://github.com/alibaba/lightproxy)                 | +                                                          |
+| 13   | Beidou               | 北斗同构框架                | Beidou(北斗) 是 NodeJS & React 同构框架，基于Egg.js开发。    | JS、NodeJS     | /        | 2018  | [Git](https://github.com/alibaba/beidou)                     | -                                                          |
+| 14   | Kiwi                 | 国际化翻译解决方案          | Kiwi-国际化翻译全流程解决方案                                | TypeScript     | /        | 2019  | [Git](https://github.com/alibaba/kiwi)                       | +                                                          |
+| 15   | ChatUI               | 对话式交互框架              | 服务于对话领域的设计和开发体系                               | TypeScript     | 小蜜     | 2021  | [Git](https://github.com/alibaba/ChatUI)                     | ++                                                         |
+| 16   | f2e-spec             | 前端规约及配套工具          | 「阿里巴巴前端规约」是在阿里经济体内广泛使用的一套前端编码和工程规范，致力于通过统一编码风格、普及最佳实践和代码缺陷检查帮助团队降低协作成本、提升前端项目的可维护性和稳定性。 | JS             | 基础服务 | 2021  | [Git](https://github.com/alibaba/f2e-spec)                   | ++                                                         |
+| 17   | Pont                 | 接口文档平台                | Pont 把 swagger、rap、dip 等多种接口文档平台，转换成 Pont 元数据。Pont 利用接口元数据，可以高度定制化生成前端接口层代码，接口 mock 平台和接口测试平台。 | TypeScript     | 基础服务 | 2020  | [Git](https://github.com/alibaba/pont)                       | ++                                                         |
+| 18   | Sifo                 | 插件式前端开发框架          | schema-plugin-flow，简称 Sifo ([sɪfɔ])，是一个高扩展性、可二开的插件式前端开发框架。 | JS、TypeScript | 阿里云   | 2020  | [Git](https://github.com/alibaba/schema-plugin-flow)         | ++                                                         |
+| 19   | react-intl-universal | 国际化的React包             | [react-intl-universal](https://github.com/alibaba/react-intl-universal) is a React internationalization package developed by [Alibaba Group](http://www.alibabagroup.com/). | JS             | /        | 2022  | [Git](https://github.com/alibaba/react-intl-universal)       | ++                                                         |
+| 20   | Canvas UI            | 通用UI渲染器                | Canvas UI 是一个运行在 HTML Canvas 上的通用 UI 渲染器。      | TypeScript     | /        | 2022  | [Git](https://github.com/alibaba/canvas-ui)                  | ++                                                         |
+| 21   | Dawn                 | 前端构建和工程化工具        | Dawn 取「黎明、破晓」之意，原为「阿里云·业务运营团队」内部的前端构建和工程化工具，现已完全开源。 | TypeScript     | 业务运营 | 2021  | [Git](https://github.com/alibaba/dawn)                       | +                                                          |
+| 22   | UI Recorder          | UI 自动化录制工具           | UI Recorder 是一款面向多端的 UI 自动化录制工具，类似于[Selenium IDE](http://docs.seleniumhq.org/projects/ide/) 但比Selenium IDE 更加强大! | JS             | /        | 2015  | [Git](https://github.com/alibaba/uirecorder)                 | ++                                                         |
+| 23   | butterfly            | 流程图组件                  | 一个基于JS的数据驱动的节点式编排组件库。                     | JS             | /        | 2021  | [Git](https://github.com/alibaba/butterfly)                  | +                                                          |
+| 24   | Designable           | 可视化设计工具              | If you are worrying about something builder, Such as form builder/table builder/chart builder/app builder etc. Designable is your perfect choice. | TypeScript     | /        | 2021  | [Git](https://github.com/alibaba/designable)                 | +                                                          |
+| 25   | x-render             | 图表解决方案                | 很易用的中后台「表单 / 表格 / 图表」解决方案                 | JS             | 基础     | 2021  | [Git](https://github.com/alibaba/x-render)                   | +                                                          |
+| 26   | ali-react-table      | 高性能React表格组件         | 高性能 React 表格组件。                                      | TypeScript     | /        | 2020  | [Git](https://github.com/alibaba/ali-react-table)            | +                                                          |
+| 27   | GSI                  | Web 3D 实时渲染             | GSI 是一个 Web 3D 实时渲染领域的伞项目，包含一套标准化的通用场景接口，以及基于其上的工具集。致力于为 Web 3D 中的必要环节提供接口规范、算法范式和最佳实践。 | TypeScript     | /        | 2021  | [Git](https://github.com/alibaba/general-scene-interface)    | +                                                          |
+| 28   | Polaris              | 分层空间数据可视化框架      | 分层空间数据可视化框架，或简称 Polaris.gl                    | TypeScript     | /        | 2021  | [Git](https://github.com/alibaba/spatial-data-vis-framework) | +                                                          |
+| 29   | ICE                  | 基于 React 的渐进式研发框架 | 基于 React 的渐进式应用框架                                  | TypeScript     | /        | 2021  | [Git](https://github.com/alibaba/ice)                        | +                                                          |
+| 30   | formily              | 表单树渲染框架              | 在 React 中，表单的整树渲染问题非常明显。对于数据联动的场景，很容易导致页面卡顿，formily将每个表单字段的状态做了分布式管理，从而大大提升了表单操作性能。 | TypeScript     | /        | 2021  | [Git](https://github.com/alibaba/formily)                    | +                                                          |
+|      |                      |                             |                                                              |                |          |       |                                                              |                                                            |
 
 ## :hamster:2.后端
 
-| 序号 | 名称                       | 全称                                           | 简介                     | 技术栈       | 应用     | 时间 | 网址                                                         | 发展 |
-| ---- | -------------------------- | ---------------------------------------------- | ------------------------ | ------------ | -------- | ---- | ------------------------------------------------------------ | ---- |
-| 1    | CloudDBA                   | CloudDBA                                       | SQL优化建议工具          | /            | 基础服务 | 2017 | /                                                            | -    |
-| 2    | Arthas                     | Arthas                                         | Java诊断工具             | Java         | 基础服务 | 2018 | [Git](https://github.com/alibaba/arthas)                     | ++   |
-| 3    | SWAK                       | SWAK                                           | 平台业务分离逻辑         | Java         | 闲鱼     | 2019 | /                                                            | -    |
-| 4    | Maat                       | Maat                                           | 分布式任务调度平台       | Airflow      | 基础服务 | 2018 | /                                                            | +    |
-| 5    | Bahamut                    | Bahamut                                        | 执行引擎                 | /            | 基础服务 | 2018 | /                                                            | +    |
-| 6    | PouchContainer             | PouchContainer                                 | 容器化平台               | Java         | 基础服务 | 2018 | [Git](https://github.com/alibaba/pouch)                      | +    |
-| 7    | AONE                       | AONE                                           | 研发协同平台             | Java         | 基础服务 | 2017 | /                                                            | -    |
-| 8    | ARMS                       | ARMS                                           | 实时监控服务             | JS           | 基础服务 | 2017 | /                                                            | --   |
-| 9    | p3c                        | p3c                                            | 开发规约插件             | Java         | /        | 2017 | [Git](https://github.com/alibaba/p3c)                        | ++   |
-| 10   | ACM                        | ACM                                            | 应用配置管理             | /            | 基础服务 | 2017 | /                                                            | -    |
-| 11   | Dubbo                      | Dubbo                                          | 高性能RPC框架            | Java、Spring | 基础服务 | 2012 | [Git](https://github.com/alibaba/dubbo)                      | ++   |
-| 12   | RocketMQ                   | RocketMQ                                       | 分布式消息中间件         | Java         | 基础服务 | 2017 | [Git](https://github.com/alibaba/rocketmq)                   | +++  |
-| 13   | Druid                      | Druid                                          | 数据库连接池             | Java         | 基础服务 | 2017 | [Git](https://github.com/alibaba/druid)                      | +++  |
-| 14   | FastJson                   | FastJson                                       | JSON 序列号库            | Java         | /        | 2017 | [Git](https://github.com/alibaba/fastjson)                   | ++   |
-| 15   | Dragonfly                  | Dragonfly                                      | 文件分发系统             | Java         | /        | 2017 | [Git](https://github.com/alibaba/Dragonfly)                  | -    |
-| 16   | Sigma                      | Sigma                                          | 容器调度系统             | Java         | 基础服务 | 2018 | /                                                            | -    |
-| 17   | JarsLink                   | JarsLink                                       | 模块化开发框架           | Java         | 蚂蚁     | 2018 | /                                                            | -    |
-| 18   | asyncload                  | asyncload                                      | 步并行加载工具           | Java         | /        | 2018 | [Git](https://github.com/alibaba/asyncload)                  | --   |
-| 19   | ByteKit                    | ByteKit                                        | Java Bytecode Kit        | Java         | /        | 2020 | [Git](https://github.com/alibaba/bytekit)                    | +    |
-| 20   | Metrics                    | Alibaba Metrics                                | 度量埋点基础类库         | Java         | 基础服务 | 2016 | [Git](https://github.com/alibaba/metrics)                    | ++   |
-| 21   | innodb-java-reader         | innodb-java-reader                             | 直接读取InnoDB工具       | Java         | /        | 2020 | [Git](https://github.com/alibaba/innodb-java-reader)         | -    |
-| 22   | RedisFullCheck             | RedisFullCheck                                 | Redis数据检查            | Go           | /        | 2020 | [Git](https://github.com/alibaba/RedisFullCheck)             | +    |
-| 23   | GCanvas                    | GCanvas                                        | 跨平台图形引擎           | C、C++       | /        | 2020 | [Git](https://github.com/alibaba/GCanvas)                    | -    |
-| 24   | Tsar                       | Taobao System Activity Reporter                | 系统监控功能             | C            | /        | 2013 | [Git](https://github.com/alibaba/tsar)                       | +    |
-| 25   | MagicOTP                   | Online Test Platform                           | 线上测试平台             | JS、Java     | 基础服务 | 2020 | [Git](https://github.com/alibaba/online-test-platform)       | ++   |
-| 26   | TestableMock               | TestableMock                                   | 单元测试框架             | Java         | 基础服务 | 2021 | [Git](https://github.com/alibaba/testable-mock)              | +    |
-| 27   | Otter                      | Otter                                          | 分布式数据库同步系统     | Java         | B2B      | 2019 | [Git](https://github.com/alibaba/otter)                      | ++   |
-| 28   | Tengine                    | Tengine                                        | Web服务器                | C、Perl      | 淘宝     | 2011 | [Git](https://github.com/alibaba/tengine)                    | ++   |
-| 29   | async_simple               | async_simple                                   | 轻量级C++异步框架        | C++          | 智能引擎 | 2022 | [Git](https://github.com/alibaba/async_simple)               | +    |
-| 30   | compileflow-idea-designer  | compileflow-idea-designer                      | compileflow引擎流程插件  | Java         | 淘宝     | 2020 | [Git](https://github.com/alibaba/compileflow-idea-designer)  | -    |
-| 31   | XQUIC                      | XQUIC                                          | 基础网络传输库           | C            | /        | 2022 | [Git](https://github.com/alibaba/xquic)                      | -    |
-| 32   | COLA                       | Clean Object-Oriented and Layered Architecture | 整洁面向对象分层架构     | Java         | /        | 2021 | [Git](https://github.com/alibaba/COLA)<br />[官网](https://start.aliyun.com/bootstrap.html) | ++   |
-| 33   | compileflow                | compileflow                                    | 流程引擎                 | Java         | 淘宝     | 2020 | [Git](https://github.com/alibaba/compileflow)                | ++   |
-| 34   | FML                        | Fast Modeling Language                         | 多维度建模工具           | Java         | 阿里云   | 2022 | [Git](https://github.com/alibaba/fast-modeling-language)     | +    |
-| 35   | java dns cache manipulator | java dns cache manipulator                     | JAVA系DNS操作工具        | Java、Kotlin | /        | 2016 | [Git](https://github.com/alibaba/java-dns-cache-manipulator) | ++   |
-| 36   | alibabacloud-tairjedis-sdk | alibabacloud-tairjedis-sdk                     | 云Redis客户端            | Java         | 阿里云   | 2017 | [Git](https://github.com/alibaba/alibabacloud-tairjedis-sdk) | +    |
-| 37   | TTL                        | TransmittableThreadLocal                       | 多线程上下文传递功能     | Java         | /        | 2021 | [Git](https://github.com/alibaba/transmittable-thread-local) | +    |
-| 38   | SmartEngine                | SmartEngine                                    | 业务编排引擎             | Java         | /        | 2020 | [Git](https://github.com/alibaba/SmartEngine)                | +    |
-| 39   | RSS                        | Remote Shuffle Service                         | 远程shuffle服务          | Java、Scala  | /        | 2021 | [Git](https://github.com/alibaba/RemoteShuffleService)       | +    |
-| 40   | Sentinel                   | Sentinel                                       | 分布式流量防卫兵         | Java         | /        | 2018 | [Git](https://github.com/alibaba/Sentinel)                   | +++  |
-| 41   | PemJa                      | PemJa                                          | 跨语言调用框架           | C、Java      | /        | 2022 | [Git](https://github.com/alibaba/pemja)                      | +    |
-| 42   | JetCache                   | JetCache                                       | Java缓存解决方案         | Java         | /        | 2017 | [Git](https://github.com/alibaba/jetcache)                   | ++   |
-| 43   | AppActive                  | AppActive                                      | 云架构中间件             | Java         | 阿里云   | 2021 | [Git](https://github.com/alibaba/Appactive)                  | +    |
-| 44   | RSocket Broker             | Alibaba RSocket Broker                         | 反应式对等通讯系统       | Java         | /        | 2019 | [Git](https://github.com/alibaba/alibaba-rsocket-broker)     | +    |
-| 45   | QLExpress                  | QLExpress                                      | 动态脚本引擎解析工具     | Java         | 电商     | 2017 | [Git](https://github.com/alibaba/QLExpress)                  | ++   |
-| 46   | MongoShake                 | MongoShake                                     | MongoDB通用型平台服务    | Go           | /        | 2021 | [Git](https://github.com/alibaba/MongoShake)                 | +    |
-| 47   | Spring Cloud Alibaba       | Spring Cloud Alibaba                           | 阿里云框架               | Java         | /        | 2017 | [Git](https://github.com/alibaba/spring-cloud-alibaba)       | +++  |
-| 48   | fastjson2                  | fastjson2                                      | 性能JSON库               | Java         | /        | 2022 | [Git](https://github.com/alibaba/fastjson2)                  | +    |
-| 49   | easyexcel                  | easyexcel                                      | Java Excel解析工具       | Java         | /        | 2017 | [Git](https://github.com/alibaba/easyexcel)                  | ++   |
-| 50   | Nacos                      | Nacos                                          | 动态命名、注册、配置服务 | Java         | /        | 2018 | [Git](https://github.com/alibaba/nacos)                      | +++  |
+| 序号 | 项目                       | 名称                     | 简介                                                         | 技术栈       | 应用     | 时间 | 网址                                                         | 发展                                               |
+| ---- | -------------------------- | ------------------------ | ------------------------------------------------------------ | ------------ | -------- | ---- | ------------------------------------------------------------ | -------------------------------------------------- |
+| 1    | CloudDBA                   | SQL优化建议工具          | *CloudDBA*是监控和管理RDS实例性能及运行状况的服务,目前只适用于MySQL类型的实例。 | /            | 基础服务 | 2017 | /                                                            | -                                                  |
+| 2    | Arthas                     | Java诊断工具             | Java诊断工具                                                 | Java         | 基础服务 | 2018 | [Git](https://github.com/alibaba/arthas)                     | ++                                                 |
+| 3    | SWAK                       | 平台业务分离逻辑         | 平台业务分离逻辑                                             | Java         | 闲鱼     | 2019 | /                                                            | -                                                  |
+| 4    | Maat                       | 分布式任务调度平台       | 分布式任务调度平台                                           | Airflow      | 基础服务 | 2018 | /                                                            | +                                                  |
+| 5    | Bahamut                    | 执行引擎                 | 执行引擎                                                     | /            | 基础服务 | 2018 | /                                                            | +                                                  |
+| 6    | PouchContainer             | 容器化平台               | An Efficient Enterprise-class Container Engine。             | Java         | 基础服务 | 2018 | [Git](https://github.com/alibaba/pouch)                      | +                                                  |
+| 7    | AONE                       | 研发协同平台             | 研发协同平台                                                 | Java         | 基础服务 | 2017 | /                                                            | -                                                  |
+| 8    | ARMS                       | 实时监控服务             | 实时监控服务                                                 | JS           | 基础服务 | 2017 | /                                                            | --                                                 |
+| 9    | p3c                        | 开发规约插件             | Alibaba Java Coding Guidelines pmd implements and IDE plugin。 | Java         | /        | 2017 | [Git](https://github.com/alibaba/p3c)                        | ++                                                 |
+| 10   | ACM                        | 应用配置管理             | 应用配置管理                                                 | /            | 基础服务 | 2017 | /                                                            | -                                                  |
+| 11   | Dubbo                      | 高性能RPC框架            | Apache Dubbo is a high-performance, java based, open source RPC framework. | Java、Spring | 基础服务 | 2012 | [Git](https://github.com/alibaba/dubbo)                      | ++                                                 |
+| 12   | RocketMQ                   | 分布式消息中间件         | *RocketMQ*作为一款纯java、分布式、队列模型的开源消息中间件,支持事务消息、顺序消息、批量消息、定时消息、消息回溯等。 | Java         | 基础服务 | 2017 | [Git](https://github.com/apache/rocketmq)                    | +++                                                |
+| 13   | Druid                      | 数据库连接池             | 为监控而生的数据库连接池                                     | Java         | 基础服务 | 2017 | [Git](https://github.com/alibaba/druid)                      | +++                                                |
+| 14   | FastJson                   | JSON 序列号库            | A fast JSON parser/generator for Java.                       | Java         | /        | 2017 | [Git](https://github.com/alibaba/fastjson)                   | ++                                                 |
+| 15   | Dragonfly                  | 文件分发系统             | Dragonfly is an intelligent P2P based image and file distribution system. | Java         | /        | 2017 | [Git](https://github.com/alibaba/Dragonfly)                  | [升级](https://github.com/dragonflyoss/Dragonfly2) |
+| 16   | Sigma                      | 容器调度系统             | 容器调度系统                                                 | Java         | 基础服务 | 2018 | /                                                            | -                                                  |
+| 17   | JarsLink                   | 模块化开发框架           | 模块化开发框架                                               | Java         | 蚂蚁     | 2018 | /                                                            | -                                                  |
+| 18   | asyncload                  | 步并行加载工具           | 阿里巴巴异步并行加载工具(依赖字节码技术)                     | Java         | /        | 2018 | [Git](https://github.com/alibaba/asyncload)                  | --                                                 |
+| 19   | ByteKit                    | Java Bytecode Kit        | 字节码增强工具                                               | Java         | /        | 2020 | [Git](https://github.com/alibaba/bytekit)                    | +                                                  |
+| 20   | Metrics                    | 度量埋点基础类库         | 度量埋点基础类库，微服务监控度量的事实标准，覆盖了从系统，JVM，中间件，应用各层的度量指标，并且从命名规则，数据格式，埋点方式，计算规则等方便形成了一套统一的规范。 | Java         | 基础服务 | 2016 | [Git](https://github.com/alibaba/metrics)                    | ++                                                 |
+| 21   | innodb-java-reader         | 直接读取InnoDB工具       | A library and command-line tool to access MySQL InnoDB data file directly in Java。 | Java         | /        | 2020 | [Git](https://github.com/alibaba/innodb-java-reader)         | -                                                  |
+| 22   | RedisFullCheck             | Redis数据检查            | redis-full-check是一个校验2个redis数据是否一致的工具，通常用于redis数据迁移（[redis-shake](https://github.com/aliyun/redis-shake)）后正确性的校验。 | Go           | /        | 2020 | [Git](https://github.com/alibaba/RedisFullCheck)             | +                                                  |
+| 23   | GCanvas                    | 跨平台图形引擎           | 超轻量的跨平台图形引擎                                       | C、C++       | /        | 2020 | [Git](https://github.com/alibaba/GCanvas)                    | -                                                  |
+| 24   | Tsar                       | 系统监控功能             | Taobao System Activity Reporter                              | C            | /        | 2013 | [Git](https://github.com/alibaba/tsar)                       | +                                                  |
+| 25   | Nacos                      | 动态命名、注册、配置服务 | an easy-to-use dynamic service discovery, configuration and service management platform for building cloud native applications. | Java         | /        | 2018 | [Git](https://github.com/alibaba/nacos)                      | +++                                                |
+| 26   | easyexcel                  | Java Excel解析工具       | 快速、简洁、解决大文件内存溢出的java处理Excel工具            | Java         | /        | 2017 | [Git](https://github.com/alibaba/easyexcel)                  | ++                                                 |
+| 27   | Otter                      | 分布式数据库同步系统     | 阿里巴巴分布式数据库同步系统(解决中美异地机房)               | Java         | B2B      | 2019 | [Git](https://github.com/alibaba/otter)                      | ++                                                 |
+| 28   | Tengine                    | Web服务器                | A distribution of Nginx with some advanced features          | C、Perl      | 淘宝     | 2011 | [Git](https://github.com/alibaba/tengine)                    | ++                                                 |
+| 29   | async_simple               | 轻量级C++异步框架        | async_simple是阿里巴巴开源的轻量级C++异步框架。提供了基于C++20无栈协程（Lazy），有栈协程（Uthread）以及Future/Promise等异步组件。 | C++          | 智能引擎 | 2022 | [Git](https://github.com/alibaba/async_simple)               | +                                                  |
+| 30   | compileflow-idea-designer  | compileflow引擎流程插件  | compileflow-idea-designer是一款Idea插件。能够让你轻松完成compileflow引擎的流程的编码设计和属性编辑。 | Java         | 淘宝     | 2020 | [Git](https://github.com/alibaba/compileflow-idea-designer)  | -                                                  |
+| 31   | XQUIC                      | 基础网络传输库           | 是一个遵循IETF标准的QUIC和HTTP/3的客户端和服务端实现。目前支持的QUIC版本是v1和draft-29。 支持跨平台。 | C            | /        | 2022 | [Git](https://github.com/alibaba/xquic)                      | -                                                  |
+| 32   | COLA                       | 整洁面向对象分层架构     | COLA 是 Clean Object-Oriented and Layered Architecture的缩写，代表“整洁面向对象分层架构”。 目前COLA已经发展到[COLA v4](https://blog.csdn.net/significantfrank/article/details/110934799)。 | Java         | /        | 2021 | [Git](https://github.com/alibaba/COLA)<br />[官网](https://start.aliyun.com/bootstrap.html) | ++                                                 |
+| 33   | compileflow                | 流程引擎                 | 一个高性能流程编排引擎。                                     | Java         | 淘宝     | 2020 | [Git](https://github.com/alibaba/compileflow)                | ++                                                 |
+| 34   | FML                        | 多维度建模工具           | fast-modeling-language，快速建模语言                         | Java         | 阿里云   | 2022 | [Git](https://github.com/alibaba/fast-modeling-language)     | +                                                  |
+| 35   | java dns cache manipulator | JAVA系DNS操作工具        | A tiny 0-dependency thread-safe Java™ lib for setting/viewing dns programmatically without touching host file, make unit/integration testing portable; and a tiny tool for setting/viewing dns of running JVM process. | Java、Kotlin | /        | 2016 | [Git](https://github.com/alibaba/java-dns-cache-manipulator) | ++                                                 |
+| 36   | alibabacloud-tairjedis-sdk | 云Redis客户端            | 基于 [Jedis](https://github.com/xetorthio/jedis) 封装的，操作 [Tair](https://help.aliyun.com/document_detail/145957.html) 的客户端，支持 Tair For Redis 多种 [Module](https://help.aliyun.com/document_detail/146579.html) 的操作命令及部分高级特性。 | Java         | 阿里云   | 2017 | [Git](https://github.com/alibaba/alibabacloud-tairjedis-sdk) | +                                                  |
+| 37   | TTL                        | 多线程上下文传递功能     | TransmittableThreadLocal，在使用线程池等会池化复用线程的执行组件情况下，提供`ThreadLocal`值的传递功能，解决异步执行时上下文传递的问题。 | Java         | /        | 2021 | [Git](https://github.com/alibaba/transmittable-thread-local) | +                                                  |
+| 38   | SmartEngine                | 业务编排引擎             | SmartEngine is a lightweight business orchestration engine.  | Java         | /        | 2020 | [Git](https://github.com/alibaba/SmartEngine)                | +                                                  |
+| 39   | RSS                        | 远程shuffle服务          | Aliyun Remote Shuffle Service(RSS) is dedicated to improving the efficiency and elasticity of different map-reduce engines. RSS provides an elastic and high efficient management service for shuffle data. | Java、Scala  | /        | 2021 | [Git](https://github.com/alibaba/RemoteShuffleService)       | +                                                  |
+| 40   | Sentinel                   | 分布式流量防卫兵         | 面向云原生微服务的高可用流控防护组件                         | Java         | /        | 2018 | [Git](https://github.com/alibaba/Sentinel)                   | +++                                                |
+| 41   | PemJa                      | 跨语言调用框架           | PemJa is an open source cross language call framework based on FFI. It aims to provide a high-performance | C、Java      | /        | 2022 | [Git](https://github.com/alibaba/pemja)                      | +                                                  |
+| 42   | JetCache                   | Java缓存解决方案         | JetCache is a Java cache framework.                          | Java         | /        | 2017 | [Git](https://github.com/alibaba/jetcache)                   | ++                                                 |
+| 43   | AppActive                  | 云架构中间件             | 阿里巴巴开源的一款标准、通用且功能强大的，致力于构建应用多活架构的开源中间件 | Java         | 阿里云   | 2021 | [Git](https://github.com/alibaba/Appactive)                  | +                                                  |
+| 44   | RSocket Broker             | 反应式对等通讯系统       | Alibaba RSocket Broker是一款基于RSocket协议的反应式对等通讯系统，为通讯多方构建分布式的RPC, Pub/Sub, Streaming等通讯支持。 | Java         | /        | 2019 | [Git](https://github.com/alibaba/alibaba-rsocket-broker)     | +                                                  |
+| 45   | QLExpress                  | 动态脚本引擎解析工具     | 由阿里的电商业务规则、表达式（布尔组合）、特殊数学公式计算（高精度）、语法分析、脚本二次定制等强需求而设计的一门动态脚本引擎解析工具。 | Java         | 电商     | 2017 | [Git](https://github.com/alibaba/QLExpress)                  | ++                                                 |
+| 46   | MongoShake                 | MongoDB通用型平台服务    | 基于mongodb oplog的集群复制工具，可以满足迁移和同步的需求，进一步实现灾备和多活功能。 | Go           | /        | 2021 | [Git](https://github.com/alibaba/MongoShake)                 | +                                                  |
+| 47   | Spring Cloud Alibaba       | 阿里云框架               | Spring Cloud Alibaba 致力于提供微服务开发的一站式解决方案。此项目包含开发分布式应用微服务的必需组件，方便开发者通过 Spring Cloud 编程模型轻松使用这些组件来开发分布式应用服务。 | Java         | /        | 2017 | [Git](https://github.com/alibaba/spring-cloud-alibaba)       | +++                                                |
+| 48   | fastjson2                  | 性能JSON库               | FASTJSON2是FASTJSON项目的重要升级，目标是为下一个十年提供一个高性能的JSON库。 | Java         | /        | 2022 | [Git](https://github.com/alibaba/fastjson2)                  | +                                                  |
+|      |                            |                          |                                                              |              |          |      |                                                              |                                                    |
 
 ## :frog:3.数据库
 
-| 序号 | 名称       | 全称       | 简介               | 技术栈     | 应用     | 时间 | 网址                                   | 发展 |
-| ---- | ---------- | ---------- | ------------------ | ---------- | -------- | ---- | -------------------------------------- | ---- |
-| 1    | Tair       | Tair       | 键值对数据存储系统 | C          | 基础服务 | 2010 | [Git](https://github.com/alibaba/tair) | +    |
-| 2    | HiTSDB     | HiTSDB     | 时间序列数据库     | Java       | 基础服务 | 2018 | /                                      | -    |
-| 3    | PostgreSQL | PostgreSQL | 关系型数据库       | MySQL      | 基础服务 | 2017 | /                                      | ++   |
-| 4    | HybridDB   | HybridDB   | 分布式数据库       | PostgreSQL | 基础服务 | 2017 | /                                      | +    |
-| 5    | Redis      | Redis      | 键值数据库         | C          | 基础服务 | 2010 | /                                      | +    |
+| 序号 | 项目       | 名称               | 简介                                                         | 技术栈     | 应用     | 时间 | 网址                                   | 发展 |
+| ---- | ---------- | ------------------ | ------------------------------------------------------------ | ---------- | -------- | ---- | -------------------------------------- | ---- |
+| 1    | Tair       | 键值对数据存储系统 | A distributed key-value storage system developed by Alibaba Group | C          | 基础服务 | 2010 | [Git](https://github.com/alibaba/tair) | +    |
+| 2    | HiTSDB     | 时间序列数据库     | 高性能时间序列数据库 (High-Performance Time Series Database ,  简称 HiTSDB) 是一种高性能，低成本，稳定可靠的在线时序数据库服务，  提供高效读写，高压缩比存储、时序数据插值及聚合计算，时间线多维分析，主要服务于监控系统和IoT领域。 | Java       | 基础服务 | 2018 | /                                      | -    |
+| 3    | PostgreSQL | 关系型数据库       | PostgreSQL数据库是功能强大的开源数据库，它支持丰富的数据类型（如JSON和JSONB类型、数组类型）和自定义类型。 | MySQL      | 基础服务 | 2017 | /                                      | ++   |
+| 4    | HybridDB   | 分布式数据库       | 云数据库*HybridDB* for MySQL (原名PetaData)是同时支持在线事务(OLTP)和在线分析(OLAP)的关系型 HTAP 类数据库。 | PostgreSQL | 基础服务 | 2017 | /                                      | +    |
+| 5    | Redis      | 键值数据库         | 高性能k/v数据库。                                            | C          | 基础服务 | 2010 | /                                      | +    |
 
 ## :bear:4.大数据
 
-| 序号 | 名称  | 全称         | 简介               | 技术栈 | 应用             | 时间 | 网址                                        | 发展 |
-| ---- | ----- | ------------ | ------------------ | ------ | ---------------- | ---- | ------------------------------------------- | ---- |
-| 1    | Flink | Apache Flink | 实时计算框架       | Scala  | 基础服务、饿了么 | /    | [官网](https://flink.apache.org/)           | ++   |
-| 2    | Mars  | Mars         | 分布式科学计算引擎 | Python | 基础应用         | 2019 | [Git](https://github.com/mars-project/mars) | +    |
-| 3    | Hbase | Hbase        | 离线数据存储       | Hadoop | 基础应用         | 2018 | /                                           | +    |
-| 4    |       |              |                    |        |                  |      |                                             |      |
+| 序号 | 项目  | 名称               | 简介                                                         | 技术栈 | 应用             | 时间 | 网址                                        | 发展 |
+| ---- | ----- | ------------------ | ------------------------------------------------------------ | ------ | ---------------- | ---- | ------------------------------------------- | ---- |
+| 1    | Flink | 实时计算框架       | Apache Flink是一个开源流处理框架，其核心是用Java和Scala编写的分布式流数据流引擎。Flink以数据并行和流水线方式执行任意流数据程序，Flink的流水线运行时系统可以执行批处理和流处理程序。 | Scala  | 基础服务、饿了么 | /    | [官网](https://flink.apache.org/)           | ++   |
+| 2    | Mars  | 分布式科学计算引擎 | Mars 是基于张量的，用于进行大规模数据计算的统一计算框架，它可以用来并行和分布式 numpy、pandas、scikit-learn 以及众多其他 Python 库。 | Python | 基础应用         | 2019 | [Git](https://github.com/mars-project/mars) | +    |
+| 3    | Hbase | 离线数据存储       | *HBase* 是一个面向列式存储的分布式数据库。                   | Hadoop | 基础应用         | 2018 | /                                           | +    |
+| 4    |       |                    |                                                              |        |                  |      |                                             |      |
 
 ## :cow:5.算法与AI
 
-| 序号 | 名称              | 全称                                       | 简介                         | 技术栈        | 应用              | 时间 | 网址                                                         | 发展 |
-| ---- | ----------------- | ------------------------------------------ | ---------------------------- | ------------- | ----------------- | ---- | ------------------------------------------------------------ | ---- |
-| 1    | Euler             | Euler                                      | 图深度学习框架               | C++           | 阿里妈妈/搜索广告 | 2019 | [Git](https://github.com/alibaba/euler)                      | +    |
-| 2    | PairXNN           | PairXNN                                    |                              |               |                   |      |                                                              |      |
-| 3    | DCAF              | Dynamic Computation Allocation Framework   | 动态算力分配                 | -             | 淘宝              | 2020 | [paper](https://arxiv.org/pdf/2006.09684.pdf)                | +    |
-| 4    | XDL               | X-DeepLearning                             | 深度优化方案                 | PureBais、C++ | 阿里妈妈          | 2019 | [Git](https://github.com/alibaba/x-deeplearning)             | +    |
-| 5    | EssentialMC2      | EssentialMC2                               | 视频理解算法                 | Python        | 达摩              | 2021 | [Git](https://github.com/alibaba/EssentialMC2)               | +    |
-| 6    | CurvLearn         | CurvLearn                                  | 非欧深度学习框架             | Python        | 搜索广告          | 2021 | [Git](https://github.com/alibaba/Curvature-Learning-Framework) | +    |
-| 7    | AliceMind         | AliceMind                                  | 深度语言模型                 | Python        | 达摩              | 2021 | [Git](https://github.com/alibaba/AliceMind)                  | -    |
-| 8    | easydispatch      | easydispatch                               | 实时调度                     | Python        | 阿里云            | 2021 | [Git](https://github.com/alibaba/easydispatch)               | -    |
-| 9    | EFLS              | Elastic Federated Learning Solution        | 弹性联邦学习解决方案         | Python、C++   | 电商              | 2021 | [Git](https://github.com/alibaba/Elastic-Federated-Learning-Solution) | +    |
-| 10   | Alink             | Alink                                      | 基于Flink的通用算法平台      | Java、Python  | 计算平台          | 2018 | [Git](https://github.com/alibaba/Alink)                      | +++  |
-| 11   | ACQDP             | Alibaba Cloud Quantum Development Platform | 阿里云量子开发平台           | Python        | 阿里云            | 2020 | [Git](https://github.com/alibaba/acqdp)                      | +    |
-| 12   | DeepRec           | DeepRec                                    | 深度推荐引擎                 | C++、Python   | /                 | 2021 | [Git](https://github.com/alibaba/DeepRec)                    | +    |
-| 13   | TinyNeuralNetwork | TinyNeuralNetwork                          | 深度学习模型压缩框架         | Python        | 天猫精灵、优酷    | 2021 | [Git](https://github.com/alibaba/TinyNeuralNetwork)          | +    |
-| 14   | SAS               | Self-Augmentation Strategy                 | 语言模型预训练的自我增强策略 | Python        | /                 | 2022 | [Git](https://github.com/alibaba/self-augmentation-strategy) | -    |
-| 15   | MNN               | Mobile Neural Network                      | 高性能神经网络               | C++、C        | 淘宝、达摩        | 2020 | [Git](https://github.com/alibaba/MNN)                        | +    |
-| 16   | Pipcook           | Pipcook                                    | Web端机器学习工具            | TypeScript    | /                 | 2020 | [Git](https://github.com/alibaba/pipcook)                    | +    |
-| 17   | EasyCV            | EasyCV                                     | 计算机视觉工具箱             | Python        | /                 | 2022 | [Git](https://github.com/alibaba/EasyCV)                     | +    |
-| 18   | FederatedScope    | Federated Scope                            | 易使的联邦学习平台           | Python        | /                 | 2022 | [Git](https://github.com/alibaba/FederatedScope)             | +    |
-| 19   | EasyRec           | EasyRec                                    | 易用的推荐系统平台           | Python        | /                 | 2021 | [Git](https://github.com/alibaba/EasyRec)                    | +    |
+| 序号 | 项目              | 名称                         | 简介                                                         | 技术栈        | 应用              | 时间 | 网址                                                         | 发展 |
+| ---- | ----------------- | ---------------------------- | ------------------------------------------------------------ | ------------- | ----------------- | ---- | ------------------------------------------------------------ | ---- |
+| 1    | Euler             | 图深度学习框架               | Euler-2.0是大规模分布式的图学习框架，配合TensorFlow或者阿里内部的XDL等深度学习工具，可以支持数十亿点数百亿边的复杂异构图上进行模型训练。 | C++           | 阿里妈妈/搜索广告 | 2019 | [Git](https://github.com/alibaba/euler)                      | ++   |
+| 2    | PairXNN           |                              | PairXNN                                                      |               |                   |      |                                                              |      |
+| 3    | DCAF              | 动态算力分配                 | 动态算力分配                                                 | /             | 淘宝              | 2020 | [paper](https://arxiv.org/pdf/2006.09684.pdf)                | +    |
+| 4    | XDL               | 深度优化方案                 | X-DeepLearning(简称XDL)是面向高维稀疏数据场景（如广告/推荐/搜索等）深度优化的一整套解决方案。 | PureBais、C++ | 阿里妈妈          | 2019 | [Git](https://github.com/alibaba/x-deeplearning)             | +    |
+| 5    | EssentialMC2      | 视频理解算法                 | EssentialMC2 Video Understanding.                            | Python        | 达摩              | 2021 | [Git](https://github.com/alibaba/EssentialMC2)               | +    |
+| 6    | CurvLearn         | 非欧深度学习框架             | `CurvLearn` 是一个开源的基于Tensorflow的非欧深度学习框架。   | Python        | 搜索广告          | 2021 | [Git](https://github.com/alibaba/Curvature-Learning-Framework) | +    |
+| 7    | AliceMind         | 深度语言模型                 | ALIbaba's Collection of Encoder-decoders from MinD (Machine IntelligeNce of Damo) Lab | Python        | 达摩              | 2021 | [Git](https://github.com/alibaba/AliceMind)                  | -    |
+| 8    | easydispatch      | 实时调度                     | Real Time Field Service Dispatching                          | Python        | 阿里云            | 2021 | [Git](https://github.com/alibaba/easydispatch)               | -    |
+| 9    | EFLS              | 弹性联邦学习解决方案         | Elastic-Federated-Learning-Solution(简称EFLS)，是经过百亿规模工业级场景实战验证的跨互联网企业信息合作的联邦学习框架。 | Python、C++   | 电商              | 2021 | [Git](https://github.com/alibaba/Elastic-Federated-Learning-Solution) | +    |
+| 10   | Alink             | 基于Flink的通用算法平台      | Alink是基于Flink的通用算法平台。                             | Java、Python  | 计算平台          | 2018 | [Git](https://github.com/alibaba/Alink)                      | +++  |
+| 11   | ACQDP             | 阿里云量子开发平台           | Alibaba Cloud - Quantum Development Platform                 | Python        | 阿里云            | 2020 | [Git](https://github.com/alibaba/acqdp)                      | +    |
+| 12   | DeepRec           | 深度推荐引擎                 | DeepRec is a recommendation engine based on TensorFlow.      | C++、Python   | /                 | 2021 | [Git](https://github.com/alibaba/DeepRec)                    | +    |
+| 13   | TinyNeuralNetwork | 深度学习模型压缩框架         | TinyNeuralNetwork是一个高效、易用的深度学习模型压缩框架。它包含模型结构搜索、剪枝、量化、模型转换等功能， 能将巨大的深度学习模型压缩数倍到数十倍。 | Python        | 天猫精灵、优酷    | 2021 | [Git](https://github.com/alibaba/TinyNeuralNetwork)          | +    |
+| 14   | SAS               | 语言模型预训练的自我增强策略 | This repository contains the official pytorch implementation for the paper "SAS: Self-Augmentation Strategy for Language Model Pre-training" based on Huggingface transformers version 4.3.0. | Python        | /                 | 2022 | [Git](https://github.com/alibaba/self-augmentation-strategy) | -    |
+| 15   | MNN               | 高性能神经网络               | [MNN](https://github.com/alibaba/MNN)是一个轻量级的深度神经网络引擎，支持深度学习的推理与训练。适用于服务器/个人电脑/手机/嵌入式各类设备。 | C++、C        | 淘宝、达摩        | 2020 | [Git](https://github.com/alibaba/MNN)                        | +    |
+| 16   | Pipcook           | Web端机器学习工具            | [Pipcook](https://github.com/alibaba/pipcook) 项目是一个开源工具集，它能让 Web 开发者更好地使用机器学习，从而开启和加速前端智能化时代！ | TypeScript    | /                 | 2020 | [Git](https://github.com/alibaba/pipcook)                    | +    |
+| 17   | EasyCV            | 计算机视觉工具箱             | EasyCV是一个涵盖多个领域的基于Pytorch的计算机视觉工具箱，聚焦自监督学习和视觉transformer关键技术，覆盖主流的视觉建模任务例如图像分类，度量学习，目标检测，关键点检测等。 | Python        | /                 | 2022 | [Git](https://github.com/alibaba/EasyCV)                     | +    |
+| 18   | FederatedScope    | 易使的联邦学习平台           | An easy-to-use federated learning platform                   | Python        | /                 | 2022 | [Git](https://github.com/alibaba/FederatedScope)             | +    |
+| 19   | EasyRec           | 易用的推荐系统平台           | A framework for large scale recommendation algorithms.       | Python        | /                 | 2021 | [Git](https://github.com/alibaba/EasyRec)                    | +    |
 
 ## :monkey:6.运维
 
-| 序号 | 名称          | 全称                         | 简介                   | 技术栈          | 应用   | 时间 | 网址                                                 | 发展 |
-| ---- | ------------- | ---------------------------- | ---------------------- | --------------- | ------ | ---- | ---------------------------------------------------- | ---- |
-| 1    | Pouch         | PouchContainer               | 镜像分发               | Go              | 电商   | 2016 | [Git](https://github.com/alibaba/pouch)              | -    |
-| 2    | KtEnv         | Virtual Environment Operator | 测试环境服务隔离       | Go              | /      | 2021 | [Git](https://alibaba.github.io/virtual-environment) | +    |
-| 3    | Redis-Shake   | Redis-Shake                  | Redis迁移工具          | Go              | 阿里云 | 2019 | [Git](https://github.com/alibaba/RedisShake)         | +    |
-| 4    | Open-Local    | Open-Local                   | 云原生本地磁盘管理系统 | Go              | 阿里云 | 2022 | [Git](https://github.com/alibaba/open-local)         | +    |
-| 5    | Derrick       | Derrick                      | 快速容器化工具         | Go              | 阿里云 | 2021 | [Git](https://alibaba.github.io/derrick)             | +    |
-| 6    | libgrape-lite | libgrape-lite                | 并行图处理的C++库      | C++             | /      | 2020 | [Git](https://github.com/alibaba/libgrape-lite)      | +    |
-| 7    | canal         | canal                        | MySQL binlog 增量订阅  | Java            | /      | 2014 | [Git](https://github.com/alibaba/canal)              | ++   |
-| 8    | DataX         | DataX                        | 数据同步框架           | Java            | 阿里云 | 2019 | [Git](https://github.com/alibaba/DataX)              | +++  |
-| 9    | dragonwell8   | dragonwell8                  | 龙井JDK                | Java、C++       | /      | 2015 | [Git](https://github.com/alibaba/dragonwell8)        | +    |
-| 10   | iLogtail      | Alibaba iLogtail             | 轻量级遥测数据采集端   | Go              | 阿里云 | 2021 | [Git](https://github.com/alibaba/ilogtail)           | +    |
-| 11   | AliOS Things  | AliOS Things                 | 物联网操作系统         | C、C++          | AliOS  | 2017 | [Git](https://github.com/alibaba/AliOS-Things)       | ++   |
-| 12   | Hybridnet     | Hybridnet                    | 云容器网络解决方案     | Go              | 阿里云 | 2021 | [Git](https://github.com/alibaba/hybridnet)          | ++   |
-| 13   | GraphScope    | GraphScope                   | 大规模图计算系统       | Java、Rust、C++ | /      | 2021 | [Git](https://github.com/alibaba/GraphScope)         | +    |
-| 14   | BladeDISC     | BladeDISC                    | 机器学习动态计算       | C++、Python     | /      | 2022 | [Git](https://github.com/alibaba/BladeDISC)          | +    |
-| 15   | SREWorks      | SREWorks                     | 云原生运维开发平台     | Java            | 阿里云 | 2022 | [Git](https://github.com/alibaba/SREWorks)           | ++   |
+| 序号 | 项目          | 名称                   | 简介                                                         | 技术栈          | 应用   | 时间 | 网址                                                 | 发展 |
+| ---- | ------------- | ---------------------- | ------------------------------------------------------------ | --------------- | ------ | ---- | ---------------------------------------------------- | ---- |
+| 1    | Pouch         | 镜像分发               | PouchContainer，An Efficient Enterprise-class Container Engine | Go              | 电商   | 2016 | [Git](https://github.com/alibaba/pouch)              | -    |
+| 2    | KtEnv         | 测试环境服务隔离       | KtEnv（原名KtVirtualEnvironment）是一种基于ServiceMesh的微服务环境复用工具，源于阿里内部的“项目环境”实践。 | Go              | /      | 2021 | [Git](https://alibaba.github.io/virtual-environment) | +    |
+| 3    | Redis-Shake   | Redis迁移工具          | 是一个用于 Redis 数据迁移与过滤的工具                        | Go              | 阿里云 | 2019 | [Git](https://github.com/alibaba/RedisShake)         | +    |
+| 4    | Open-Local    | 云原生本地磁盘管理系统 | Open-Local是由多个组件构成的本地磁盘管理系统，目标是解决当前 Kubernetes 本地存储能力缺失问题。通过Open-Local，使用本地存储会像集中式存储一样简单。 | Go              | 阿里云 | 2022 | [Git](https://github.com/alibaba/open-local)         | +    |
+| 5    | Derrick       | 快速容器化工具         | 一个帮助你快速容器化应用的工具                               | Go              | 阿里云 | 2021 | [Git](https://alibaba.github.io/derrick)             | +    |
+| 6    | libgrape-lite | 并行图处理的C++库      | A C++ library for parallel graph processing (GRAPE)          | C++             | /      | 2020 | [Git](https://github.com/alibaba/libgrape-lite)      | +    |
+| 7    | canal         | MySQL binlog 增量订阅  | 阿里巴巴 MySQL binlog 增量订阅&消费组件                      | Java            | /      | 2014 | [Git](https://github.com/alibaba/canal)              | ++   |
+| 8    | DataX         | 数据同步框架           | DataX用于离线数据同步工具/平台。实现了包括 MySQL、Oracle、OceanBase、SqlServer、Postgre、HDFS、Hive、ADS、HBase、TableStore(OTS)、MaxCompute(ODPS)、Hologres、DRDS 等各种异构数据源之间高效的数据同步功能。 | Java            | 阿里云 | 2019 | [Git](https://github.com/alibaba/DataX)              | +++  |
+| 9    | dragonwell8   | 龙井JDK                | Alibaba Dragonwell8 JDK                                      | Java、C++       | /      | 2015 | [Git](https://github.com/alibaba/dragonwell8)        | +    |
+| 10   | iLogtail      | 轻量级遥测数据采集端   | iLogtail 为可观测场景而生，拥有的轻量级、高性能、自动化配置等诸多生产级别特性，可以部署于物理机，虚拟机，Kubernetes等多种环境中来采集遥测数据，例如logs、traces和metrics。 | Go              | 阿里云 | 2021 | [Git](https://github.com/alibaba/ilogtail)           | +    |
+| 11   | AliOS Things  | 物联网操作系统         | AliOS 家族旗下的、面向IoT领域的、高可伸缩的物联网操作系统，于2017年10月20号宣布在[github](https://github.com/alibaba/AliOS-Things)上开源，当前最新的版本是 **AliOS Things 3.3** 。 | C、C++          | AliOS  | 2017 | [Git](https://github.com/alibaba/AliOS-Things)       | ++   |
+| 12   | Hybridnet     | 云容器网络解决方案     | A CNI plugin, provides networking environment where overlay and underlay containers can run on the same node and have cluster-wide bidirectional network connectivity. | Go              | 阿里云 | 2021 | [Git](https://github.com/alibaba/hybridnet)          | ++   |
+| 13   | GraphScope    | 大规模图计算系统       | GraphScope 是阿里巴巴达摩院智能计算实验室研发并开源的一站式图计算平台。依托于阿里海量数据和丰富场景，GraphScope 致力于针对实际生产场景中图计算的挑战，提供一站式高效的解决方案。 | Java、Rust、C++ | /      | 2021 | [Git](https://github.com/alibaba/GraphScope)         | +    |
+| 14   | BladeDISC     | 机器学习动态计算       | BladeDISC is an end-to-end DynamIc Shape Compiler project for machine learning workloads. | C++、Python     | /      | 2022 | [Git](https://github.com/alibaba/BladeDISC)          | +    |
+| 15   | SREWorks      | 云原生运维开发平台     | 提供专业高效、安全可靠的一站式"数据化、智能化"运维SaaS应用套件（交、监、管、控、营、服）和云原生运维开发平台。 | Java            | 阿里云 | 2022 | [Git](https://github.com/alibaba/SREWorks)           | ++   |
 
 ## :camel:7.安全
 
-| 序号 | 名称 | 全称 | 简介 | 技术栈 | 应用 | 时间 | 网址 | 发展 |
+| 序号 | 项目 | 名称 | 简介 | 技术栈 | 应用 | 时间 | 网址 | 发展 |
 | ---- | ---- | ---- | ---- | ------ | ---- | ---- | ---- | ---- |
 | 1    |      |      |      |        |      |      |      |      |
 | 2    |      |      |      |        |      |      |      |      |
@@ -165,32 +164,35 @@
 
 ## :panda_face:8.测试
 
-| 序号 | 名称                 | 全称                       | 简介         | 技术栈 | 应用 | 时间 | 网址                                                   | 发展 |
-| ---- | -------------------- | -------------------------- | ------------ | ------ | ---- | ---- | ------------------------------------------------------ | ---- |
-| 1    | jvm-sandbox-repeater | jvm-sandbox-repeater       | 业务监控系统 | Java   | 淘宝 | 2019 | [Git](https://github.com/alibaba/jvm-sandbox-repeater) | +    |
-| 2    | JVM-SANDBOX          | JVM-SANDBOX                | 沙箱容器     | Java   | /    | 2020 | [Git](https://github.com/alibaba/jvm-sandbox)          | +    |
-| 3    | KtConnect            | Kubernetes Toolkit Connect | 测试联调工具 | Go     | /    | 2020 | [Git](https://github.com/alibaba/kt-connect)           | ++   |
-| 4    |                      |                            |              |        |      |      |                                                        |      |
+| 序号 | 项目                 | 名称               | 简介                                                         | 技术栈   | 应用     | 时间 | 网址                                                   | 发展 |
+| ---- | -------------------- | ------------------ | ------------------------------------------------------------ | -------- | -------- | ---- | ------------------------------------------------------ | ---- |
+| 1    | jvm-sandbox-repeater | 业务监控系统       | 基于[JVM-Sandbox](https://github.com/alibaba/JVM-Sandbox)的录制/回放通用解决方案。 | Java     | 淘宝     | 2019 | [Git](https://github.com/alibaba/jvm-sandbox-repeater) | +    |
+| 2    | JVM-SANDBOX          | 沙箱容器           | JVM沙箱容器，一种JVM的非侵入式运行期AOP解决方案。            | Java     | /        | 2020 | [Git](https://github.com/alibaba/jvm-sandbox)          | +    |
+| 3    | KtConnect            | 测试联调工具       | KtConnect（Kt为Kubernetes Toolkit集群工具包的简写）是一款基于Kubernetes环境用于提高本地测试联调效率的小工具。 | Go       | /        | 2020 | [Git](https://github.com/alibaba/kt-connect)           | ++   |
+| 4    | F2etest              | 多浏览器兼容性测试 | F2etest是一个面向前端、测试、产品等岗位的多浏览器兼容性测试整体解决方案。 | JS、Java | 基础服务 | 2016 | [Git](https://github.com/alibaba/f2etest)              | -    |
+| 5    | MagicOTP             | 线上测试平台       | MagicOTP (Online Test Platform)是一个开源的线上测试平台，思想是通过回放大批量线上真实请求，并结合规则验证的形式对服务返回的结果进行校验。 | JS、Java | 基础服务 | 2020 | [Git](https://github.com/alibaba/online-test-platform) | ++   |
+| 6    | TestableMock         | 单元测试框架       | 无需初始化，不挑服务框架，甭管要换的是私有方法、静态方法、构造方法还是其他任何类的任何方法，也甭管要换的对象是怎么创建的。写好Mock定义，加个`@MockInvoke`注解，一切统统搞定。 | Java     | 基础服务 | 2021 | [Git](https://github.com/alibaba/testable-mock)        | 维护 |
+| 7    | Macaca               | 多端自动化解决方案 | Macaca 是一套面向用户端软件的测试解决方案，提供了自动化驱动，环境配套，周边工具，集成方案，旨在解决`终端`上的测试、自动化、性能等方面的问题。 | NodeJS   | /        | 2018 | [Git](https://github.com/alibaba/macaca)               | +    |
 
 ## :baby_chick:9.移动端
 
-| 序号 | 名称         | 全称               | 简介                   | 技术栈     | 应用 | 时间  | 网址                                                   | 发展 |
-| ---- | ------------ | ------------------ | ---------------------- | ---------- | ---- | ----- | ------------------------------------------------------ | ---- |
-| 1    | FusionDesign | FusionDesign       | 中后台设计系统解决方案 | React      | 淘宝 | 2018  | [Git](https://github.com/alibaba-fusion)               | ++   |
-| 2    | Flutter      | Flutter            | 跨平台UI框架           | JS         | 闲鱼 | 2018+ | [Git](https://github.com/flutter/flutter)              | +++  |
-| 3    | Sophix       | Sophix             | 热修复技术             | Android    | 手淘 | 2017  | /                                                      | --   |
-| 4    | Atlas        | Atlas              | 协同开发               | Android    | 手淘 | 2017  | [Git](https://github.com/alibaba/atlas)                | +    |
-| 5    | Galileo      | Galileo            | iOS自动化测试          | iOS        | 天猫 | 2017  | /                                                      | -    |
-| 6    | Rax          | Rax                | 快速构建多端应用       | React      | 淘宝 | 2020  | [官网](https://rax.js.org/)                            | +    |
-| 7    | AndFix       | AndFix             | Android 应用热修复工具 | Android    | 淘宝 | 2015  | [Git](https://github.com/alibaba/AndFix)               | -    |
-| 8    | coobjc       | coobjc             | 协程功能               | iOS        | /    | 2019  | [Git](https://github.com/alibaba/coobjc)               | -    |
-| 9    | Fish Redux   | Fish Redux         | flutter应用框架        | Dart       | /    | 2020  | [Git](https://github.com/alibaba/fish-redux)           | -    |
-| 10   | ID²          | Internet Device ID | 物联网设备可信身份标识 | C          | /    | 2019  | [Git](https://github.com/alibaba/id2_client_sdk)       | -    |
-| 11   | Macaca       | Macaca             | 多端自动化解决方案     | NodeJS     | /    | 2018  | [Git](https://github.com/alibaba/macaca)               | +    |
-| 12   | Ribut        | Ribut              | 可视化调试架构         | Java       | 优酷 | 2022  | [Git](https://github.com/alibaba/Ribut)                | +    |
-| 13   | ARouter      | ARouter            | Android App 组件化框架 | Java       | /    | 2017  | [Git](https://github.com/alibaba/ARouter)              | ++   |
-| 14   | tidevice     | tidevice           | IOS通讯工具            | Python     | /    | 2021  | [Git](https://github.com/alibaba/taobao-iphone-device) | +    |
-| 15   | ReX Design   | ReX Design         | 多端自适应组件         | TypeScript | 盒马 | 2021  | [Git](https://github.com/alibaba/rex-design)           | +    |
-| 16   | GaiaX        | GaiaX              | 动态模板引擎           | Kotlin、C  | 优酷 | 2022  | [Git](https://github.com/alibaba/GaiaX)                | +    |
-| 17   | FlutterBoost | FlutterBoost       | Flutter混合集成方案    | Dart、Java | 闲鱼 | 2019  | [Git](https://github.com/alibaba/flutter_boost)        | +    |
+| 序号 | 项目         | 名称                   | 简介                                                         | 技术栈     | 应用 | 时间  | 网址                                                   | 发展 |
+| ---- | ------------ | ---------------------- | ------------------------------------------------------------ | ---------- | ---- | ----- | ------------------------------------------------------ | ---- |
+| 1    | FusionDesign | 中后台设计系统解决方案 | 中后台设计系统解决方案                                       | React      | 淘宝 | 2018  | [Git](https://github.com/alibaba-fusion)               | ++   |
+| 2    | Flutter      | 跨平台UI框架           | 跨平台UI框架                                                 | JS         | 闲鱼 | 2018+ | [Git](https://github.com/flutter/flutter)              | +++  |
+| 3    | Sophix       | 热修复技术             | 热修复技术                                                   | Android    | 手淘 | 2017  | /                                                      | --   |
+| 4    | Atlas        | 协同开发               | A powerful Android Dynamic Component Framework.              | Android    | 手淘 | 2017  | [Git](https://github.com/alibaba/atlas)                | +    |
+| 5    | Galileo      | iOS自动化测试          | iOS自动化测试                                                | iOS        | 天猫 | 2017  | /                                                      | -    |
+| 6    | Rax          | 快速构建多端应用       | 超轻量，高性能，易上手的前端解决方案。一次开发多端运行，解放重复工作，专注产品逻辑，提升开发效率。 | React      | 淘宝 | 2020  | [官网](https://rax.js.org/)                            | +    |
+| 7    | AndFix       | Android 应用热修复工具 | AndFix is a library that offer hot-fix for Android App.      | Android    | 淘宝 | 2015  | [Git](https://github.com/alibaba/AndFix)               | -    |
+| 8    | coobjc       | 协程功能               | 这个库为 Objective-C 和 Swift 提供了协程功能。               | iOS        | /    | 2019  | [Git](https://github.com/alibaba/coobjc)               | -    |
+| 9    | Fish Redux   | flutter应用框架        | An assembled flutter application framework.                  | Dart       | /    | 2020  | [Git](https://github.com/alibaba/fish-redux)           | -    |
+| 10   | ID²          | 物联网设备可信身份标识 | Internet Device ID，是物联网设备的可信身份标识，具备不可篡改、不可伪造、全球唯一的安全属性，是实现万物互联、服务流转的关键基础设施。 | C          | /    | 2019  | [Git](https://github.com/alibaba/id2_client_sdk)       | -    |
+| 11   | FlutterBoost | Flutter混合集成方案    | FlutterBoost的使命是让开发者非常简单的在原生App中开发Flutter页面。 FlutterBoost做为Flutter sdk上层的解决方案，有一定的局限性，我们需要依赖sdk更多的开放能力。 | Dart、Java | 闲鱼 | 2019  | [Git](https://github.com/alibaba/flutter_boost)        | +    |
+| 12   | Ribut        | 可视化调试架构         | 可视化调试架构是阿里巴巴优酷技术团队研发的一套端到端的研发提效解决方案，除了客户端SDK之外，还提供了配套了Mac和Windows版本的RibutApp，支持网络抓包、网络Mock、沙盒浏览，自定义插件扩展，RibutApp的目标是通过工具化手段，切实帮助广大研发同学解决日常痛点问题。 | Java       | 优酷 | 2022  | [Git](https://github.com/alibaba/Ribut)                | +    |
+| 13   | ARouter      | Android App 组件化框架 | 帮助 Android App 进行组件化改造的路由框架                    | Java       | /    | 2017  | [Git](https://github.com/alibaba/ARouter)              | ++   |
+| 14   | tidevice     | IOS通讯工具            | 用于与iOS设备进行通信                                        | Python     | /    | 2021  | [Git](https://github.com/alibaba/taobao-iphone-device) | +    |
+| 15   | ReX Design   | 多端自适应组件         | 基于 React 的多端自适应组件库                                | TypeScript | 盒马 | 2021  | [Git](https://github.com/alibaba/rex-design)           | +    |
+| 16   | GaiaX        | 动态模板引擎           | GaiaX动态模板引擎是一套轻量化、跨平台、高性能的纯原生移动端卡片渲染动态化解决方案。 | Kotlin、C  | 优酷 | 2022  | [Git](https://github.com/alibaba/GaiaX)                | +    |
+|      |              |                        |                                                              |            |      |       |                                                        |      |
 
