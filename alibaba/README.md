@@ -88,7 +88,8 @@
 | 46   | MongoShake                 | MongoDB通用型平台服务    | 基于mongodb oplog的集群复制工具，可以满足迁移和同步的需求，进一步实现灾备和多活功能。 | Go           | /        | 2021 | [Git](https://github.com/alibaba/MongoShake)                 | +                                                  |
 | 47   | Spring Cloud Alibaba       | 阿里云框架               | Spring Cloud Alibaba 致力于提供微服务开发的一站式解决方案。此项目包含开发分布式应用微服务的必需组件，方便开发者通过 Spring Cloud 编程模型轻松使用这些组件来开发分布式应用服务。 | Java         | /        | 2017 | [Git](https://github.com/alibaba/spring-cloud-alibaba)       | +++                                                |
 | 48   | fastjson2                  | 性能JSON库               | FASTJSON2是FASTJSON项目的重要升级，目标是为下一个十年提供一个高性能的JSON库。 | Java         | /        | 2022 | [Git](https://github.com/alibaba/fastjson2)                  | +                                                  |
-|      |                            |                          |                                                              |              |          |      |                                                              |                                                    |
+| 49   | yalantinglibs              | 高性能RPC框架            | Very easy-to-use, coroutine-based, high performance rpc  framework with C++20, more than 2000w qps in echo scene. coro_rpc is a  header only library. | C++          | /        | 2022 | [Git](https://github.com/alibaba/yalantinglibs)              | ++                                                 |
+| 50   | higress                    | 云原生网关               | Higress 实现了安全防护网关、流量网关、微服务网关三层网关合一，可以显著降低网关的部署和运维成本。 | C++、Go      | /        | 2022 | [Git](https://github.com/alibaba/higress)                    | ++                                                 |
 
 ## :frog:3.数据库
 

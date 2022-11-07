@@ -99,30 +99,30 @@
 
 ## :cow:5.算法与AI
 
-| 序号 | 项目               | 名称                         | 简介                                                         | 技术栈           | 应用                 | 时间 | 网址                                            | 发展 |
-| ---- | ------------------ | ---------------------------- | ------------------------------------------------------------ | ---------------- | -------------------- | ---- | ----------------------------------------------- | ---- |
-| 1    | POI                | 机器学习的POI品类推荐算法    | 机器学习的POI品类推荐算法                                    | Naive Bayes      | 商家数据中心         | 2014 | /                                               | -    |
-| 2    | AlexNet            | 卷积神经网络                 | 卷积神经网络                                                 | CNN              | 图像识别             | 2017 | /                                               | +    |
-| 3    | GBDT               | 梯度提升决策树               | 梯度提升决策树                                               | /                | ETA配送              | 2017 | /                                               | +    |
-| 4    | Core ML            | 集成机器学习模型             | Core ML，集成机器学习模型                                    | Python           | AR                   | 2018 | /                                               | +    |
-| 5    | ps-lite            | 模型的训练框架               | 模型的训练框架，A lightweight parameter server interface     | C++              | 猜你喜欢             | 2018 | [Git](https://github.com/dmlc/ps-lite)          | +    |
-| 6    | Kaldi              | 语音识别系统                 | 语音识别系统，kaldi-asr/kaldi is the official location of the Kaldi project. | C++              | /                    | 2018 | [Git](https://github.com/kaldi-asr/kaldi)       | ++   |
-| 7    | Wide & Deep        | 分类和回归模型               | 分类和回归模型                                               | TensorFlow       | 广告                 | 2018 | /                                               | ++   |
-| 8    | TensorFlow Serving | 机器学习模型                 | 机器学习模型                                                 | TensorFlow       | 广告                 | 2018 | /                                               | ++   |
-| 9    | Faster R-CNN       | 深度学习目标检测框架         | 深度学习目标检测框架                                         | CNN              | OCR应用              | 2018 | /                                               | +    |
-| 10   | XGBoost            | 机器学习平台                 | 机器学习平台                                                 | /                | 配送                 | 2019 | /                                               | +    |
-| 11   | BERT               | 深度双向语言表征模型         | Bidirectional Encoder Representations from Transformers      | Transformer      | 搜索                 | 2019 | /                                               | ++   |
-| 12   | Jupyter            | 数据分析平台                 | Kaggle Kernels Jupyter，数据分析平台                         | /                | 民宿                 | 2019 | /                                               | +    |
-| 13   | Augur              | 在线预估框架                 | 在线预估框架                                                 | Transformer      | 搜索                 | 2020 | /                                               | +    |
-| 14   | Transformer        | 编码解码层                   | 编码解码层                                                   | Attention        | 搜索                 | 2020 | /                                               | ++   |
-| 15   | Turing             | 机器学习平台                 | 机器学习平台                                                 | Java             | 配送                 | 2020 | /                                               | -    |
-| 16   | CA-TCN             | 跨会话感知的时间卷积神经网络 | 跨会话感知的时间卷积神经网络                                 | RNN              | 增长技术             | 2020 | /                                               | -    |
-| 17   | DARTS-             | 神经网络架构搜索             | Code for "DARTS-: Robustly Stepping out of Performance Collapse Without Indicators" | NAS              | 视觉平台             | 2021 | [Git](https://github.com/Meituan-AutoML/DARTS-) | +    |
-| 18   | VisTR              | 视频分割识别算法             | End-to-End Video Instance Segmentation with Transformers     | CNN              | /                    | 2021 | [Git](https://github.com/Epiphqny/VisTR)        | +    |
-| 19   | ConSERT            | 对比学习的句子表示迁移框架   | ConSERT: A Contrastive Framework for Self-Supervised Sentence Representation Transfer | BERT             | 知识图谱、KBQA、搜索 | 2021 | [Git](https://github.com/yym6472/ConSERT)       | -    |
-| 20   | DPIN               | CTR模型                      | CTR模型                                                      | DL               | 广告平台             | 2021 | /                                               | -    |
-| 21   | YOLOv6             | YOLOv6                       | YOLOv6 is a single-stage object detection framework  dedicated to industrial applications, with hardware-friendly efficient  design and high performance. | Jupyter Notebook | /                    | 2022 | [Git](https://github.com/meituan/YOLOv6)        | ++   |
-|      |                    |                              |                                                              |                  |                      |      |                                                 |      |
+| 序号 | 项目               | 名称                         | 简介                                                         | 技术栈           | 应用                 | 时间 | 网址                                                 | 发展 |
+| ---- | ------------------ | ---------------------------- | ------------------------------------------------------------ | ---------------- | -------------------- | ---- | ---------------------------------------------------- | ---- |
+| 1    | POI                | 机器学习的POI品类推荐算法    | 机器学习的POI品类推荐算法                                    | Naive Bayes      | 商家数据中心         | 2014 | /                                                    | -    |
+| 2    | AlexNet            | 卷积神经网络                 | 卷积神经网络                                                 | CNN              | 图像识别             | 2017 | /                                                    | +    |
+| 3    | GBDT               | 梯度提升决策树               | 梯度提升决策树                                               | /                | ETA配送              | 2017 | /                                                    | +    |
+| 4    | Core ML            | 集成机器学习模型             | Core ML，集成机器学习模型                                    | Python           | AR                   | 2018 | /                                                    | +    |
+| 5    | ps-lite            | 模型的训练框架               | 模型的训练框架，A lightweight parameter server interface     | C++              | 猜你喜欢             | 2018 | [Git](https://github.com/dmlc/ps-lite)               | +    |
+| 6    | Kaldi              | 语音识别系统                 | 语音识别系统，kaldi-asr/kaldi is the official location of the Kaldi project. | C++              | /                    | 2018 | [Git](https://github.com/kaldi-asr/kaldi)            | ++   |
+| 7    | Wide & Deep        | 分类和回归模型               | 分类和回归模型                                               | TensorFlow       | 广告                 | 2018 | /                                                    | ++   |
+| 8    | TensorFlow Serving | 机器学习模型                 | 机器学习模型                                                 | TensorFlow       | 广告                 | 2018 | /                                                    | ++   |
+| 9    | Faster R-CNN       | 深度学习目标检测框架         | 深度学习目标检测框架                                         | CNN              | OCR应用              | 2018 | /                                                    | +    |
+| 10   | XGBoost            | 机器学习平台                 | 机器学习平台                                                 | /                | 配送                 | 2019 | /                                                    | +    |
+| 11   | BERT               | 深度双向语言表征模型         | Bidirectional Encoder Representations from Transformers      | Transformer      | 搜索                 | 2019 | /                                                    | ++   |
+| 12   | Jupyter            | 数据分析平台                 | Kaggle Kernels Jupyter，数据分析平台                         | /                | 民宿                 | 2019 | /                                                    | +    |
+| 13   | Augur              | 在线预估框架                 | 在线预估框架                                                 | Transformer      | 搜索                 | 2020 | /                                                    | +    |
+| 14   | Transformer        | 编码解码层                   | 编码解码层                                                   | Attention        | 搜索                 | 2020 | /                                                    | ++   |
+| 15   | Turing             | 机器学习平台                 | 机器学习平台                                                 | Java             | 配送                 | 2020 | /                                                    | -    |
+| 16   | CA-TCN             | 跨会话感知的时间卷积神经网络 | 跨会话感知的时间卷积神经网络                                 | RNN              | 增长技术             | 2020 | /                                                    | -    |
+| 17   | DARTS-             | 神经网络架构搜索             | Code for "DARTS-: Robustly Stepping out of Performance Collapse Without Indicators" | NAS              | 视觉平台             | 2021 | [Git](https://github.com/Meituan-AutoML/DARTS-)      | +    |
+| 18   | VisTR              | 视频分割识别算法             | End-to-End Video Instance Segmentation with Transformers     | CNN              | /                    | 2021 | [Git](https://github.com/Epiphqny/VisTR)             | +    |
+| 19   | ConSERT            | 对比学习的句子表示迁移框架   | ConSERT: A Contrastive Framework for Self-Supervised Sentence Representation Transfer | BERT             | 知识图谱、KBQA、搜索 | 2021 | [Git](https://github.com/yym6472/ConSERT)            | -    |
+| 20   | DPIN               | CTR模型                      | CTR模型                                                      | DL               | 广告平台             | 2021 | /                                                    | -    |
+| 21   | YOLOv6             | YOLOv6                       | YOLOv6 is a single-stage object detection framework  dedicated to industrial applications, with hardware-friendly efficient  design and high performance. | Jupyter Notebook | /                    | 2022 | [Git](https://github.com/meituan/YOLOv6)             | ++   |
+| 22   | vision-ui          | 视觉UI分析                   | Vision UI 源于美团视觉测试工具，提供图像UI分析，识别服务     | Python           | /                    | 2022 | [Git](https://github.com/Meituan-Dianping/vision-ui) | +    |
 
 ## :monkey:6.运维
 
@@ -150,16 +150,17 @@
 
 ## :panda_face:8.测试
 
-| 序号 | 项目     | 名称                    | 简介                                                         | 技术栈   | 应用     | 时间 | 网址                                        | 发展 |
-| ---- | -------- | ----------------------- | ------------------------------------------------------------ | -------- | -------- | ---- | ------------------------------------------- | ---- |
-| 1    | Emma     | 代码覆盖工具            | EMMA 是一个用于检测和报告 JAVA 代码覆盖率的开源工具。它不但能很好的用于小型项目，很方便得得出覆盖率报告，而且适用于大型企业级别的项目。 | Java     | 基础服务 | 2014 | [官网](http://emma.sourceforge.net/)        | +    |
-| 2    | KIF      | iOS自动化测试和持续集成 | Keep It Functional - An iOS Functional Testing Framework     | iOS      | 猫眼     | 2016 | [Git](https://github.com/kif-framework/KIF) | +    |
-| 3    | Spider   | App自动化测试           | Dianping Spider，App自动化测试                               | /        | 基础服务 | 2016 | /                                           | --   |
-| 4    | Appium   | App自动化测试           | appium 是当前移动平台上主流的自动化测试工具之一。            | Cucumber | 酒旅     | 2016 | [官网](http://appium.io)                    | +    |
-| 5    | JaCoCo   | 代码覆盖率工具          | JaCoCo，代码覆盖率工具                                       | Java     | 到店     | 2017 | [Git](https://github.com/jacoco/jacoco)     | -    |
-| 6    | sysbench | 数据库测试工具          | *sysbench*是一款开源的多线程性能测试工具，可以执行CPU/内存/线程/IO/数据库等方面的性能测试。 | MySQL    | 基础服务 | 2017 | [Git](https://github.com/topics/sysbench)   | +    |
-| 7    | JMeter   | 压测工具                | Apache JMeter是Apache组织开发的基于Java的压力测试工具。用于对软件做压力测试，它最初被设计用于Web应用测试，但后来扩展到其他测试领域。 | Java     | 基础服务 | 2017 | [官网](https://jmeter.apache.org/)          | ++   |
-| 8    | Spock    | 单元测试工具            | *Spock* 是适合 Java 和 Groovy 应用程序的一个测试框架。       | Java     | 优选     | 2020 | [官网](https://spockframework.org)          | ++   |
+| 序号 | 项目     | 名称                    | 简介                                                         | 技术栈   | 应用     | 时间 | 网址                                                | 发展 |
+| ---- | -------- | ----------------------- | ------------------------------------------------------------ | -------- | -------- | ---- | --------------------------------------------------- | ---- |
+| 1    | Emma     | 代码覆盖工具            | EMMA 是一个用于检测和报告 JAVA 代码覆盖率的开源工具。它不但能很好的用于小型项目，很方便得得出覆盖率报告，而且适用于大型企业级别的项目。 | Java     | 基础服务 | 2014 | [官网](http://emma.sourceforge.net/)                | +    |
+| 2    | KIF      | iOS自动化测试和持续集成 | Keep It Functional - An iOS Functional Testing Framework     | iOS      | 猫眼     | 2016 | [Git](https://github.com/kif-framework/KIF)         | +    |
+| 3    | Spider   | App自动化测试           | Dianping Spider，App自动化测试                               | /        | 基础服务 | 2016 | /                                                   | --   |
+| 4    | Appium   | App自动化测试           | appium 是当前移动平台上主流的自动化测试工具之一。            | Cucumber | 酒旅     | 2016 | [官网](http://appium.io)                            | +    |
+| 5    | JaCoCo   | 代码覆盖率工具          | JaCoCo，代码覆盖率工具                                       | Java     | 到店     | 2017 | [Git](https://github.com/jacoco/jacoco)             | -    |
+| 6    | sysbench | 数据库测试工具          | *sysbench*是一款开源的多线程性能测试工具，可以执行CPU/内存/线程/IO/数据库等方面的性能测试。 | MySQL    | 基础服务 | 2017 | [Git](https://github.com/topics/sysbench)           | +    |
+| 7    | JMeter   | 压测工具                | Apache JMeter是Apache组织开发的基于Java的压力测试工具。用于对软件做压力测试，它最初被设计用于Web应用测试，但后来扩展到其他测试领域。 | Java     | 基础服务 | 2017 | [官网](https://jmeter.apache.org/)                  | ++   |
+| 8    | Spock    | 单元测试工具            | *Spock* 是适合 Java 和 Groovy 应用程序的一个测试框架。       | Java     | 优选     | 2020 | [官网](https://spockframework.org)                  | ++   |
+| 9    | Lyrebird | 移动应测试平台          | **Lyrebird** 是一个基于拦截以及模拟 HTTP/HTTPS 网络请求的面向移动应用的插件式测试平台。 | Python   | 基础     | 2021 | [Git](https://github.com/Meituan-Dianping/lyrebird) | ++   |
 
 ## :baby_chick:9.移动端
 
@@ -172,7 +173,7 @@
 | 5    | Flutter       | 跨平台UI框架           | Flutter makes it easy and fast to build beautiful apps for mobile and beyond | JS              | 外卖       | 2018+ | [Git](https://github.com/flutter/flutter)         | +++  |
 | 6    | Picasso       | 跨平台动态化框架       | Meituan Picasso，是大众点评移动研发团队自研的高性能跨平台动态化[框架](https://so.csdn.net/so/search?q=框架&spm=1001.2101.3001.7020)，经过两年多的孕育和发展，目前在美团多个事业群已经实现了大规模的应用。 | DSL、TypeScript | 外卖、酒旅 | 2018  | /                                                 | -    |
 | 7    | EasyReact     | 客户端开发框架         | Meituan EasyReact，是一款基于响应式编程范式的客户端开发框架，开发者可以使用此框架轻松地解决客户端的异步问题。 | Objective-C     |            | 2018  | [Git](https://github.com/meituan/EasyReact)       | -    |
-| 8    | Logan         | 移动端基础日志组件     | Meituan Logan，是美团点评集团推出的大前端日志系统。名称是 Log 和 An 的组合，代表个体日志服务。 | C、JS           | 基础服务   | 2018  | [Git](https://github.com/Meituan-Dianping/Logan)  | +    |
+| 8    | Logan         | 移动端基础日志组件     | Meituan Logan，是美团点评集团推出的大前端日志系统。名称是 Log 和 An 的组合，代表个体日志服务。 | C、JS           | 基础服务   | 2018  | [Git](https://github.com/Meituan-Dianping/Logan)  | ++   |
 | 9    | MCI           | 流程研发系统           | Mobile continuous integration，流程研发系统                  | /               | 基础服务   | 2018  | /                                                 | -    |
 | 10   | Robust        | 热修复框架             | Robust是新一代热更新系统，无差别兼容Android2.3-10版本；无需重启补丁实时生效，快速修复线上问题，补丁修补成功率高达99.9%。 | /               | 外卖       | 2018  | [Git](https://github.com/Meituan-Dianping/Robust) | -    |
 | 11   | Holmes        | 动态日志系统           | Meituan Holmes，动态日志系统                                 | Android         | /          | 2018  | /                                                 | -    |
