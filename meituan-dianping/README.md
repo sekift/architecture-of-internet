@@ -121,8 +121,10 @@
 | 18   | VisTR              | 视频分割识别算法             | End-to-End Video Instance Segmentation with Transformers     | CNN              | /                    | 2021 | [Git](https://github.com/Epiphqny/VisTR)             | +    |
 | 19   | ConSERT            | 对比学习的句子表示迁移框架   | ConSERT: A Contrastive Framework for Self-Supervised Sentence Representation Transfer | BERT             | 知识图谱、KBQA、搜索 | 2021 | [Git](https://github.com/yym6472/ConSERT)            | -    |
 | 20   | DPIN               | CTR模型                      | CTR模型                                                      | DL               | 广告平台             | 2021 | /                                                    | -    |
-| 21   | YOLOv6             | YOLOv6                       | YOLOv6 is a single-stage object detection framework  dedicated to industrial applications, with hardware-friendly efficient  design and high performance. | Jupyter Notebook | /                    | 2022 | [Git](https://github.com/meituan/YOLOv6)             | ++   |
+| 21   | YOLOv6             | YOLOv6                       | YOLOv6是美团视觉智能部研发的一款目标检测框架，致力于工业应用，本框架同时专注于检测的精度和推理效率。 | Jupyter Notebook | /                    | 2022 | [Git](https://github.com/meituan/YOLOv6)             | ++   |
 | 22   | vision-ui          | 视觉UI分析                   | Vision UI 源于美团视觉测试工具，提供图像UI分析，识别服务     | Python           | /                    | 2022 | [Git](https://github.com/Meituan-Dianping/vision-ui) | +    |
+| 23   | Tulong             | 图神经网络框架               | 图神经网络框架Tulong以及配套的图学习平台，自带MTGraph图计算库。 | Python           | 搜索与NLP            | 2022 | /                                                    | +    |
+| 24   | Twins              | 视觉注意力模型               | Twins  是美团和阿德莱德大学合作提出的视觉注意力模型。        | Python           | /                    | 2022 | [Git](https://github.com/Meituan-AutoML/Twins)       | +    |
 
 ## :monkey:6.运维
 
@@ -150,17 +152,18 @@
 
 ## :panda_face:8.测试
 
-| 序号 | 项目     | 名称                    | 简介                                                         | 技术栈   | 应用     | 时间 | 网址                                                | 发展 |
-| ---- | -------- | ----------------------- | ------------------------------------------------------------ | -------- | -------- | ---- | --------------------------------------------------- | ---- |
-| 1    | Emma     | 代码覆盖工具            | EMMA 是一个用于检测和报告 JAVA 代码覆盖率的开源工具。它不但能很好的用于小型项目，很方便得得出覆盖率报告，而且适用于大型企业级别的项目。 | Java     | 基础服务 | 2014 | [官网](http://emma.sourceforge.net/)                | +    |
-| 2    | KIF      | iOS自动化测试和持续集成 | Keep It Functional - An iOS Functional Testing Framework     | iOS      | 猫眼     | 2016 | [Git](https://github.com/kif-framework/KIF)         | +    |
-| 3    | Spider   | App自动化测试           | Dianping Spider，App自动化测试                               | /        | 基础服务 | 2016 | /                                                   | --   |
-| 4    | Appium   | App自动化测试           | appium 是当前移动平台上主流的自动化测试工具之一。            | Cucumber | 酒旅     | 2016 | [官网](http://appium.io)                            | +    |
-| 5    | JaCoCo   | 代码覆盖率工具          | JaCoCo，代码覆盖率工具                                       | Java     | 到店     | 2017 | [Git](https://github.com/jacoco/jacoco)             | -    |
-| 6    | sysbench | 数据库测试工具          | *sysbench*是一款开源的多线程性能测试工具，可以执行CPU/内存/线程/IO/数据库等方面的性能测试。 | MySQL    | 基础服务 | 2017 | [Git](https://github.com/topics/sysbench)           | +    |
-| 7    | JMeter   | 压测工具                | Apache JMeter是Apache组织开发的基于Java的压力测试工具。用于对软件做压力测试，它最初被设计用于Web应用测试，但后来扩展到其他测试领域。 | Java     | 基础服务 | 2017 | [官网](https://jmeter.apache.org/)                  | ++   |
-| 8    | Spock    | 单元测试工具            | *Spock* 是适合 Java 和 Groovy 应用程序的一个测试框架。       | Java     | 优选     | 2020 | [官网](https://spockframework.org)                  | ++   |
-| 9    | Lyrebird | 移动应测试平台          | **Lyrebird** 是一个基于拦截以及模拟 HTTP/HTTPS 网络请求的面向移动应用的插件式测试平台。 | Python   | 基础     | 2021 | [Git](https://github.com/Meituan-Dianping/lyrebird) | ++   |
+| 序号 | 项目      | 名称                    | 简介                                                         | 技术栈   | 应用     | 时间 | 网址                                                | 发展 |
+| ---- | --------- | ----------------------- | ------------------------------------------------------------ | -------- | -------- | ---- | --------------------------------------------------- | ---- |
+| 1    | Emma      | 代码覆盖工具            | EMMA 是一个用于检测和报告 JAVA 代码覆盖率的开源工具。它不但能很好的用于小型项目，很方便得得出覆盖率报告，而且适用于大型企业级别的项目。 | Java     | 基础服务 | 2014 | [官网](http://emma.sourceforge.net/)                | +    |
+| 2    | KIF       | iOS自动化测试和持续集成 | Keep It Functional - An iOS Functional Testing Framework     | iOS      | 猫眼     | 2016 | [Git](https://github.com/kif-framework/KIF)         | +    |
+| 3    | Spider    | App自动化测试           | Dianping Spider，App自动化测试                               | /        | 基础服务 | 2016 | /                                                   | --   |
+| 4    | Appium    | App自动化测试           | appium 是当前移动平台上主流的自动化测试工具之一。            | Cucumber | 酒旅     | 2016 | [官网](http://appium.io)                            | +    |
+| 5    | JaCoCo    | 代码覆盖率工具          | JaCoCo，代码覆盖率工具                                       | Java     | 到店     | 2017 | [Git](https://github.com/jacoco/jacoco)             | -    |
+| 6    | sysbench  | 数据库测试工具          | *sysbench*是一款开源的多线程性能测试工具，可以执行CPU/内存/线程/IO/数据库等方面的性能测试。 | MySQL    | 基础服务 | 2017 | [Git](https://github.com/topics/sysbench)           | +    |
+| 7    | JMeter    | 压测工具                | Apache JMeter是Apache组织开发的基于Java的压力测试工具。用于对软件做压力测试，它最初被设计用于Web应用测试，但后来扩展到其他测试领域。 | Java     | 基础服务 | 2017 | [官网](https://jmeter.apache.org/)                  | ++   |
+| 8    | Spock     | 单元测试工具            | *Spock* 是适合 Java 和 Groovy 应用程序的一个测试框架。       | Java     | 优选     | 2020 | [官网](https://spockframework.org)                  | ++   |
+| 9    | Lyrebird  | 移动应测试平台          | **Lyrebird** 是一个基于拦截以及模拟 HTTP/HTTPS 网络请求的面向移动应用的插件式测试平台。 | Python   | 基础     | 2021 | [Git](https://github.com/Meituan-Dianping/lyrebird) | ++   |
+| 10   | AlphaTest | 自动化测试平台          | AlphaTest是美团外卖自研的测试平台，采用了基于录制回放的方式进行设计，增加了环境模拟、跨App支持、混合技术栈的支持等能力，在使用简单的同时，也保障了用例的可维护性、测试的准确性等。 | /        | 外卖     | 2022 | /                                                   | -    |
 
 ## :baby_chick:9.移动端
 
@@ -191,5 +194,5 @@
 | 23   | Sketch        | 积木UI统一解决方案     | Meituan Sketch，积木UI统一解决方案                           | /               | 前端       | 2020  | /                                                 | +    |
 | 24   | R2X           | 终端容器无关化框架     | React2X，终端容器无关化框架                                  | React           | 前端       | 2021  | /                                                 | -    |
 | 25   | RoboAspectJ   | 移动端切面开发         | A gradle plugin that enables AOP in android.                 | Groovy          | /          | 2016  | [Git](https://github.com/meituan/RoboAspectJ)     | --   |
-|      |               |                        |                                                              |                 |            |       |                                                   |      |
+| 26   | Phoenix       | 端侧 CDN 容灾方案      | 在端侧进行容灾，就需要感知 CDN 的可用性，然后实现端侧自动切换的能力。 | /               | 外卖       | 2021  | /                                                 | -    |
 
